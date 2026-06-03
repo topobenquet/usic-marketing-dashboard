@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marketing Dashboard — US Immigration Consultants</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.js" integrity="sha384-iU8HYtnGQ8Cy4zl7gbNMOhsDTTKX02BTXptVP/vqAWIaTfM7isw76iyZCsjL2eVi" crossorigin="anonymous"></script>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #0d1117; color: #e6edf3;
+  padding: 20px 24px 40px; min-height: 100vh;
+}
+.dash-header {
+  display: flex; align-items: flex-start; justify-content: space-between;
+  margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px solid #21262d;
+  flex-wrap: wrap; gap: 12px;
+}
+.dash-title { font-size: 20px; font-weight: 700; color: #f0f6fc; }
+.dash-subtitle { font-size: 12px; color: #8b949e; margin-top: 3px; }
+.header-right { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.last-updated { font-size:11px; color:#6e7681; }
+.btn { background:#21262d; color:#e6edf3; border:1px solid #30363d; border-radius:6px; padding:6px 14px; cursor:pointer; font-size:12px; transition:all 0.15s; }
+.btn:hover { background:#30363d; }
+
+.date-bar {
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+  background: #161b22; border: 1px solid #21262d; border-radius: 10px;
+  padding: 10px 14px; margin-bottom: 20px;
+}
+.date-bar-label { font-size: 11px; color: #6e7681; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-right: 4px; }
+.date-preset-btn {
+  background: #0d1117; color: #8b949e; border: 1px solid #30363d;
+  border-radius: 6px; padding: 5px 12px; cursor: pointer; font-size: 12px;
+  transition: all 0.15s; white-space: nowrap;
+}
+.date-preset-btn:hover { background: #21262d; color: #e6edf3; }
+.date-preset-btn.active { background: #1f3a5f; border-color: #1f6feb88; color: #58a6ff; font-weight: 600; }
+.date-custom-wrap {
+  display: none; align-items: center; gap: 6px;
+  border-left: 1px solid #30363d; padding-left: 10px; margin-left: 2px;
+}
+.date-custom-wrap.visible { display: flex; }
+.date-input { background: #0d1117; color: #e6edf3; border: 1px solid #30363d; border-radius: 6px; padding: 4px 8px; font-size: 12px; color-scheme: dark; }
+.date-input:focus { outline: none; border-color: #1f6feb; }
+.date-sep { font-size: 11px; color: #6e7681; }
+.date-apply { background: #238636 !important; border-color: #2ea043 !important; color: #fff !important; font-weight: 600; }
+.date-apply:hover { background: #2ea043 !important; }
+.date-range-display { font-size: 11px; color: #58a6ff; margin-left: auto; white-space: nowrap; }
+
+.section { margin-bottom:28px; }
+.section-header { display:flex; align-items:center; gap:8px; margin-bottom:14px; }
+.section-dot { width:9px; height:9px; border-radius:50%; flex-shrink:0; }
+.section-title { font-size:15px; font-weight:600; color:#f0f6fc; }
+.divider { border:none; border-top:1px solid #21262d; margin:24px 0; }
+
+.kpi-row { display:grid; gap:12px; margin-bottom:16px; }
+.kpi-6 { grid-template-columns:repeat(6,1fr); }
+.kpi-4 { grid-template-columns:repeat(4,1fr); }
+@media(max-width:900px){.kpi-6{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:600px){.kpi-6,.kpi-4{grid-template-columns:repeat(2,1fr)}}
+.kpi { background:#161b22; border:1px solid #21262d; border-radius:10px; padding:14px 16px; transition:border-color 0.2s; }
+.kpi:hover { border-color:#388bfd55; }
+.kpi-label { font-size:10px; color:#8b949e; text-transform:uppercase; letter-spacing:0.6px; margin-bottom:7px; }
+.kpi-val { font-size:22px; font-weight:700; color:#f0f6fc; line-height:1; }
+.kpi-sub { font-size:10px; color:#6e7681; margin-top:5px; }
+.c-blue{color:#58a6ff} .c-green{color:#3fb950} .c-red{color:#f85149} .c-yellow{color:#e3b341} .c-purple{color:#d2a8ff} .c-gray{color:#8b949e}
+
+.chart-row { display:grid; gap:14px; margin-bottom:14px; }
+.chart-2 { grid-template-columns:2fr 1fr; }
+.chart-11 { grid-template-columns:1fr 1fr; }
+@media(max-width:700px){.chart-2,.chart-11{grid-template-columns:1fr}}
+.chart-card { background:#161b22; border:1px solid #21262d; border-radius:10px; padding:16px; }
+.chart-card-title { font-size:12px; font-weight:600; color:#e6edf3; margin-bottom:12px; }
+.chart-wrap { position:relative; height:200px; }
+
+.tbl-card { background:#161b22; border:1px solid #21262d; border-radius:10px; padding:16px; overflow-x:auto; margin-bottom:14px; }
+table { width:100%; border-collapse:collapse; font-size:11px; }
+thead th { background:#0d1117; color:#6e7681; text-align:right; padding:7px 10px; border-bottom:1px solid #21262d; text-transform:uppercase; font-size:10px; letter-spacing:0.5px; font-weight:600; white-space:nowrap; }
+thead th:first-child { text-align:left; }
+tbody td { padding:7px 10px; border-bottom:1px solid #21262d; text-align:right; color:#e6edf3; white-space:nowrap; }
+tbody td:first-child { text-align:left; color:#f0f6fc; max-width:220px; overflow:hidden; text-overflow:ellipsis; }
+tbody tr:last-child td { border-bottom:none; }
+tbody tr:hover td { background:#1c2128; }
+
+.insights-card { background:#161b22; border:1px solid #1f6feb44; border-radius:10px; padding:4px 16px; }
+.insight-item { display:flex; gap:10px; padding:12px 0; border-bottom:1px solid #21262d; align-items:flex-start; }
+.insight-item:last-child { border-bottom:none; }
+.insight-icon { font-size:15px; flex-shrink:0; margin-top:1px; }
+.insight-text { font-size:12px; color:#c9d1d9; line-height:1.55; }
+.insight-text strong { color:#f0f6fc; }
+
+.center-box { display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:400px; gap:14px; }
+.spinner { width:38px; height:38px; border:3px solid #21262d; border-top-color:#58a6ff; border-radius:50%; animation:spin 0.75s linear infinite; }
+@keyframes spin { to { transform:rotate(360deg); } }
+.loading-label { color:#8b949e; font-size:13px; }
+.error-box { background:#f8514922; border:1px solid #f8514955; border-radius:8px; padding:12px 18px; color:#ffa198; font-size:12px; text-align:center; max-width:480px; }
+.kw-badge { display:inline-block; padding:2px 7px; border-radius:10px; font-size:10px; font-weight:600; background:#1f3a5f; color:#58a6ff; border:1px solid #1f6feb44; }
+</style>
+</head>
+<body>
+<div id="app">
+  <div class="center-box">
+    <div class="spinner"></div>
+    <div class="loading-label" id="load-msg">Loading…</div>
+  </div>
+</div>
+
+<script>
+/* ── CONFIG ── */
+const WINDSOR_KEY = 'fcfb6b6412b361cec3e773facf01b656b06d';
+const GHL_ACC     = 'cDflRENlp3PnNAba1tYW';
+const GADS_ACC    = '370-923-9676';
+const GA4_ACC     = '396222340';
+const BASE        = 'https://connectors.windsor.ai';
+
+Chart.defaults.color = '#6e7681';
+Chart.defaults.borderColor = '#21262d';
+Chart.defaults.font.family = "-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif";
+Chart.defaults.font.size = 11;
+
+const CHARTS = {};
+function destroyCharts() {
+  Object.values(CHARTS).forEach(c => { try { c.destroy(); } catch(_){} });
+  Object.keys(CHARTS).forEach(k => delete CHARTS[k]);
+}
+
+/* ── DATE HELPERS ── */
+function toISO(d) { return d.toISOString().slice(0,10); }
+function today()     { return toISO(new Date()); }
+function yesterday() { const d=new Date(); d.setDate(d.getDate()-1); return toISO(d); }
+function daysAgo(n)  { const d=new Date(); d.setDate(d.getDate()-n); return toISO(d); }
+
+let dateConfig = { preset:'yesterday', from:yesterday(), to:yesterday() };
+
+function dateLabel() {
+  const p = dateConfig.preset;
+  if (p==='today')     return 'Today (' + today() + ')';
+  if (p==='yesterday') return 'Yesterday (' + yesterday() + ')';
+  if (p==='last_7d')   return 'Last 7 days';
+  if (p==='last_30d')  return 'Last 30 days';
+  return dateConfig.from + ' → ' + dateConfig.to;
+}
+
+/* ── WINDSOR FETCH ── */
+async function windsorFetch(connector, accountId, fields) {
+  const params = new URLSearchParams({
+    api_key: WINDSOR_KEY,
+    date_from: dateConfig.from,
+    date_to: dateConfig.to,
+    fields: fields.join(','),
+    account_id: accountId
+  });
+  const res = await fetch(`${BASE}/${connector}?${params}`);
+  if (!res.ok) throw new Error(`Windsor ${connector} HTTP ${res.status}`);
+  const json = await res.json();
+  return Array.isArray(json) ? json : (json.data || json.result || []);
+}
+
+/* ── FETCH ALL ── */
+async function fetchAll() {
+  setMsg('Fetching GHL, Google Ads & Google Analytics…');
+  const [ghlR, gadsR, ga4R, kwR] = await Promise.allSettled([
+    windsorFetch('gohighlevel', GHL_ACC,  ['contact_date_added','contact_source','contact_id']),
+    windsorFetch('google_ads',  GADS_ACC, ['date','campaign','spend','clicks','impressions','conversions','ctr','cpc']),
+    windsorFetch('googleanalytics4', GA4_ACC, ['date','sessions','users','session_default_channel_group','country']),
+    windsorFetch('google_ads',  GADS_ACC, ['keyword','match_type','clicks','impressions','ctr','cpc','conversions','spend'])
+  ]);
+  return {
+    ghl:      ghlR.status==='fulfilled'  ? ghlR.value  : [],
+    gads:     gadsR.status==='fulfilled' ? gadsR.value : [],
+    ga4:      ga4R.status==='fulfilled'  ? ga4R.value  : [],
+    keywords: kwR.status==='fulfilled'   ? kwR.value   : []
+  };
+}
+
+/* ── PROCESS ── */
+function classifySource(src) {
+  if (!src) return 'call';
+  const s = src.toLowerCase();
+  if (s.includes('pool')||s.includes('number pool')||s.includes('call')) return 'call';
+  if (s.includes('landing')||s.includes('survey')||s.includes('form')||s.includes('quiz')||s.includes('external')) return 'form';
+  return 'unknown';
+}
+
+function processGHL(rows) {
+  const minBkt={};
+  rows.forEach(r => {
+    if (!r.contact_source) {
+      const m=(r.contact_date_added||'').slice(0,16);
+      minBkt[m]=(minBkt[m]||0)+1;
+    }
+  });
+  const bulkMins=new Set(Object.keys(minBkt).filter(m=>minBkt[m]>=5));
+  const daily={}, sources={};
+  let calls=0, forms=0, unknown=0;
+  rows.forEach(r => {
+    const m=(r.contact_date_added||'').slice(0,16);
+    if (!r.contact_source && bulkMins.has(m)) return;
+    const day=(r.contact_date_added||'').slice(0,10);
+    if (!day) return;
+    if (!daily[day]) daily[day]={call:0,form:0,unknown:0};
+    const t=classifySource(r.contact_source);
+    daily[day][t]++;
+    sources[r.contact_source||'Inbound Call']=(sources[r.contact_source||'Inbound Call']||0)+1;
+    if(t==='call') calls++; else if(t==='form') forms++; else unknown++;
+  });
+  return { daily, sources, calls, forms, unknown, total:calls+forms+unknown };
+}
+
+function processGAds(rows) {
+  const daily={}, campaigns={};
+  let spend=0, clicks=0, impr=0, conv=0;
+  rows.forEach(r => {
+    const d=r.date;
+    if(!daily[d]) daily[d]={spend:0,clicks:0,impr:0,conv:0};
+    daily[d].spend+=+r.spend||0; daily[d].clicks+=+r.clicks||0;
+    daily[d].impr+=+r.impressions||0; daily[d].conv+=+r.conversions||0;
+    const c=r.campaign;
+    if(!campaigns[c]) campaigns[c]={spend:0,clicks:0,impr:0,conv:0};
+    campaigns[c].spend+=+r.spend||0; campaigns[c].clicks+=+r.clicks||0;
+    campaigns[c].impr+=+r.impressions||0; campaigns[c].conv+=+r.conversions||0;
+    spend+=+r.spend||0; clicks+=+r.clicks||0; impr+=+r.impressions||0; conv+=+r.conversions||0;
+  });
+  return { daily, campaigns, spend, clicks, impr, conv,
+    ctr:impr>0?clicks/impr:0, cpc:clicks>0?spend/clicks:0, cpa:conv>0?spend/conv:0 };
+}
+
+function processGA4(rows) {
+  const channels={}, countries={}, daily={};
+  let sessions=0, users=0;
+  rows.forEach(r => {
+    const ch=r.session_default_channel_group||'Other';
+    channels[ch]=(channels[ch]||0)+(+r.sessions||0);
+    countries[r.country]=(countries[r.country]||0)+(+r.sessions||0);
+    daily[r.date]=(daily[r.date]||0)+(+r.sessions||0);
+    sessions+=+r.sessions||0; users+=+r.users||0;
+  });
+  return { channels, countries, daily, sessions, users };
+}
+
+function processKeywords(rows) {
+  const kw={};
+  rows.forEach(r => {
+    if(!r.keyword) return;
+    if(!kw[r.keyword]) kw[r.keyword]={clicks:0,impr:0,conv:0,spend:0,matchType:r.match_type};
+    kw[r.keyword].clicks+=+r.clicks||0; kw[r.keyword].impr+=+r.impressions||0;
+    kw[r.keyword].conv+=+r.conversions||0; kw[r.keyword].spend+=+r.spend||0;
+  });
+  return Object.entries(kw).sort((a,b)=>b[1].conv-a[1].conv);
+}
+
+/* ── FORMAT ── */
+const fmt = {
+  $:  v => '$'+Number(v).toLocaleString('en-US',{maximumFractionDigits:0}),
+  $2: v => '$'+Number(v).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}),
+  n:  (v,d=0) => Number(v).toLocaleString('en-US',{minimumFractionDigits:d,maximumFractionDigits:d}),
+  pct: v => (v*100).toFixed(1)+'%',
+  pct0: v => (v*100).toFixed(0)+'%'
+};
+
+/* ── INSIGHTS ── */
+function makeInsights(ghl, gads, ga4) {
+  const out=[];
+  if (gads.conv>0) out.push({icon:'📊',text:`Google Ads generated <strong>${fmt.n(gads.conv,0)} conversions</strong> with a CPA of <strong>${fmt.$2(gads.cpa)}</strong> and total spend of <strong>${fmt.$(gads.spend)}</strong>.`});
+  const topCamp=Object.entries(gads.campaigns).sort((a,b)=>b[1].conv-a[1].conv)[0];
+  if (topCamp) { const cpa=topCamp[1].conv>0?topCamp[1].spend/topCamp[1].conv:0; out.push({icon:'🏆',text:`Top campaign: <strong>"${topCamp[0]}"</strong> — ${fmt.n(topCamp[1].conv,0)} conv · CPA ${fmt.$2(cpa)} · Spend ${fmt.$(topCamp[1].spend)}.`}); }
+  if (gads.ctr>0) { const q=gads.ctr>=0.08?'excellent — above the 5–8% benchmark':'within the expected range for legal services'; out.push({icon:'⚡',text:`Avg. CTR: <strong>${fmt.pct(gads.ctr)}</strong> — ${q}. CPC <strong>${fmt.$2(gads.cpc)}</strong>.`}); }
+  if (ga4.sessions>0) { const pp=((ga4.channels['Paid Search']||0)/ga4.sessions*100).toFixed(0); const op=((ga4.channels['Organic Search']||0)/ga4.sessions*100).toFixed(0); out.push({icon:'🌐',text:`<strong>${fmt.n(ga4.sessions)}</strong> sessions — Paid Search <strong>${pp}%</strong> · Organic <strong>${op}%</strong>.`}); }
+  const topC=Object.entries(ga4.countries).sort((a,b)=>b[1]-a[1])[0];
+  if (topC) { const p=ga4.sessions>0?(topC[1]/ga4.sessions*100).toFixed(0):0; out.push({icon:'🗺️',text:`Top country: <strong>${topC[0]}</strong> — ${fmt.n(topC[1])} sessions (${p}%).`}); }
+  if (ghl.total>0) { const cp=(ghl.calls/ghl.total*100).toFixed(0); out.push({icon:'📞',text:`GHL: <strong>${ghl.total} leads</strong> — ${ghl.calls} calls (${cp}%) · ${ghl.forms} form submissions.`}); }
+  if (out.length===0) out.push({icon:'ℹ️',text:'No data available for the selected date range.'});
+  return out;
+}
+
+/* ── RENDER ── */
+function renderApp(ghlR, gadsR, ga4R, kwR) {
+  const ghl  = processGHL(ghlR);
+  const gads = processGAds(gadsR);
+  const ga4  = processGA4(ga4R);
+  const kws  = processKeywords(kwR);
+  const ins  = makeInsights(ghl, gads, ga4);
+  const now  = new Date().toLocaleString('en-US',{dateStyle:'medium',timeStyle:'short'});
+
+  const gadsDates=[...Object.keys(gads.daily)].sort();
+  const ghlDates=[...Object.keys(ghl.daily)].sort();
+  const ga4Dates=[...Object.keys(ga4.daily)].sort();
+
+  const campRows=Object.entries(gads.campaigns).sort((a,b)=>b[1].spend-a[1].spend).map(([name,m])=>{
+    const ctr=m.impr>0?m.clicks/m.impr:0, cpc=m.clicks>0?m.spend/m.clicks:0, cpa=m.conv>0?m.spend/m.conv:0;
+    return `<tr><td>${name}</td><td>${fmt.$(m.spend)}</td><td>${fmt.n(m.clicks)}</td><td>${fmt.n(m.impr)}</td><td>${fmt.pct(ctr)}</td><td>${fmt.$2(cpc)}</td><td>${fmt.n(m.conv,1)}</td><td>${fmt.$2(cpa)}</td></tr>`;
+  }).join('');
+
+  const kwRows=kws.slice(0,10).map(([kw,m])=>{
+    const ctr=m.impr>0?m.clicks/m.impr:0, cpa=m.conv>0?m.spend/m.conv:0;
+    return `<tr><td><span class="kw-badge">${m.matchType||'—'}</span> ${kw}</td><td>${fmt.n(m.clicks)}</td><td>${fmt.pct(ctr)}</td><td>${fmt.$(m.spend)}</td><td>${fmt.n(m.conv,1)}</td><td>${fmt.$2(cpa)}</td></tr>`;
+  }).join('');
+
+  document.getElementById('app').innerHTML = `
+  <div class="dash-header">
+    <div>
+      <div class="dash-title">🏛️ US Immigration Consultants</div>
+      <div class="dash-subtitle">Marketing Dashboard · GHL + Google Ads + GA4</div>
+    </div>
+    <div class="header-right">
+      <span class="last-updated">Updated: ${now}</span>
+      <button class="btn" onclick="reload()">↻ Refresh</button>
+    </div>
+  </div>
+
+  <div class="date-bar">
+    <span class="date-bar-label">Period:</span>
+    <button class="date-preset-btn ${dateConfig.preset==='today'?'active':''}"     onclick="setPreset('today')">Today</button>
+    <button class="date-preset-btn ${dateConfig.preset==='yesterday'?'active':''}" onclick="setPreset('yesterday')">Yesterday</button>
+    <button class="date-preset-btn ${dateConfig.preset==='last_7d'?'active':''}"   onclick="setPreset('last_7d')">Last 7 days</button>
+    <button class="date-preset-btn ${dateConfig.preset==='last_30d'?'active':''}"  onclick="setPreset('last_30d')">Last 30 days</button>
+    <button class="date-preset-btn ${dateConfig.preset==='custom'?'active':''}"    onclick="setPreset('custom')">Custom range</button>
+    <div class="date-custom-wrap ${dateConfig.preset==='custom'?'visible':''}" id="custom-wrap">
+      <input type="date" class="date-input" id="date-from" value="${dateConfig.from}" max="${today()}">
+      <span class="date-sep">→</span>
+      <input type="date" class="date-input" id="date-to" value="${dateConfig.to}" max="${today()}">
+      <button class="btn date-apply" onclick="applyCustom()">Apply</button>
+    </div>
+    <span class="date-range-display">📅 ${dateLabel()}</span>
+  </div>
+
+  <!-- GHL -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-dot" style="background:#3fb950"></div>
+      <div class="section-title">GHL — Leads</div>
+    </div>
+    <div class="kpi-row kpi-4">
+      <div class="kpi"><div class="kpi-label">Total Leads</div><div class="kpi-val c-blue">${fmt.n(ghl.total)}</div><div class="kpi-sub">Excl. bulk imports</div></div>
+      <div class="kpi"><div class="kpi-label">📞 Calls</div><div class="kpi-val c-blue">${fmt.n(ghl.calls)}</div><div class="kpi-sub">${ghl.total>0?fmt.pct0(ghl.calls/ghl.total):'—'} of total</div></div>
+      <div class="kpi"><div class="kpi-label">📋 Form Submissions</div><div class="kpi-val c-green">${fmt.n(ghl.forms)}</div><div class="kpi-sub">${ghl.total>0?fmt.pct0(ghl.forms/ghl.total):'—'} of total</div></div>
+      <div class="kpi"><div class="kpi-label">❓ Unclassified</div><div class="kpi-val c-gray">${fmt.n(ghl.unknown)}</div><div class="kpi-sub">Unrecognized source</div></div>
+    </div>
+    <div class="chart-row chart-2">
+      <div class="chart-card"><div class="chart-card-title">Daily Leads — Calls vs. Form Submissions</div><div class="chart-wrap"><canvas id="c-ghl-daily"></canvas></div></div>
+      <div class="chart-card"><div class="chart-card-title">Lead Sources</div><div class="chart-wrap"><canvas id="c-ghl-sources"></canvas></div></div>
+    </div>
+  </div>
+  <hr class="divider">
+
+  <!-- Google Ads -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-dot" style="background:#58a6ff"></div>
+      <div class="section-title">Google Ads — Performance</div>
+    </div>
+    <div class="kpi-row kpi-6">
+      <div class="kpi"><div class="kpi-label">💰 Total Spend</div><div class="kpi-val c-red">${fmt.$(gads.spend)}</div><div class="kpi-sub">${dateLabel()}</div></div>
+      <div class="kpi"><div class="kpi-label">🖱️ Clicks</div><div class="kpi-val c-blue">${fmt.n(gads.clicks)}</div><div class="kpi-sub">CTR ${fmt.pct(gads.ctr)}</div></div>
+      <div class="kpi"><div class="kpi-label">👁️ Impressions</div><div class="kpi-val">${fmt.n(gads.impr)}</div><div class="kpi-sub">Total reach</div></div>
+      <div class="kpi"><div class="kpi-label">✅ Conversions</div><div class="kpi-val c-green">${fmt.n(gads.conv,0)}</div><div class="kpi-sub">Total period</div></div>
+      <div class="kpi"><div class="kpi-label">💵 Avg. CPC</div><div class="kpi-val">${fmt.$2(gads.cpc)}</div><div class="kpi-sub">Per click</div></div>
+      <div class="kpi"><div class="kpi-label">🎯 CPA</div><div class="kpi-val c-yellow">${fmt.$2(gads.cpa)}</div><div class="kpi-sub">Per conversion</div></div>
+    </div>
+    <div class="chart-row chart-2">
+      <div class="chart-card"><div class="chart-card-title">Daily Spend + Conversions</div><div class="chart-wrap"><canvas id="c-gads-daily"></canvas></div></div>
+      <div class="chart-card"><div class="chart-card-title">Conversions by Campaign</div><div class="chart-wrap"><canvas id="c-gads-camp"></canvas></div></div>
+    </div>
+    <div class="tbl-card">
+      <div style="font-size:12px;font-weight:600;color:#e6edf3;margin-bottom:10px;">Campaign Performance</div>
+      <table><thead><tr><th>Campaign</th><th>Spend</th><th>Clicks</th><th>Impr.</th><th>CTR</th><th>CPC</th><th>Conv.</th><th>CPA</th></tr></thead>
+      <tbody>${campRows||'<tr><td colspan="8" style="text-align:center;color:#6e7681">No data for this period</td></tr>'}</tbody></table>
+    </div>
+    ${kwRows?`<div class="tbl-card"><div style="font-size:12px;font-weight:600;color:#e6edf3;margin-bottom:10px;">🔑 Top Keywords — by Conversions</div><table><thead><tr><th>Keyword</th><th>Clicks</th><th>CTR</th><th>Spend</th><th>Conv.</th><th>CPA</th></tr></thead><tbody>${kwRows}</tbody></table></div>`:''}
+  </div>
+  <hr class="divider">
+
+  <!-- GA4 -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-dot" style="background:#e3b341"></div>
+      <div class="section-title">Google Analytics 4 — Traffic</div>
+    </div>
+    <div class="kpi-row kpi-4">
+      <div class="kpi"><div class="kpi-label">Sessions</div><div class="kpi-val c-blue">${fmt.n(ga4.sessions)}</div><div class="kpi-sub">${dateLabel()}</div></div>
+      <div class="kpi"><div class="kpi-label">Users</div><div class="kpi-val c-blue">${fmt.n(ga4.users)}</div><div class="kpi-sub">Unique visitors</div></div>
+      <div class="kpi"><div class="kpi-label">🔵 Paid Search</div><div class="kpi-val c-blue">${fmt.n(ga4.channels['Paid Search']||0)}</div><div class="kpi-sub">${ga4.sessions>0?fmt.pct0((ga4.channels['Paid Search']||0)/ga4.sessions):'—'} of total</div></div>
+      <div class="kpi"><div class="kpi-label">🟢 Organic</div><div class="kpi-val c-green">${fmt.n(ga4.channels['Organic Search']||0)}</div><div class="kpi-sub">${ga4.sessions>0?fmt.pct0((ga4.channels['Organic Search']||0)/ga4.sessions):'—'} of total</div></div>
+    </div>
+    <div class="chart-row chart-11">
+      <div class="chart-card"><div class="chart-card-title">Sessions by Channel</div><div class="chart-wrap"><canvas id="c-ga4-ch"></canvas></div></div>
+      <div class="chart-card"><div class="chart-card-title">Top Countries</div><div class="chart-wrap"><canvas id="c-ga4-ct"></canvas></div></div>
+    </div>
+    <div class="chart-row" style="grid-template-columns:1fr">
+      <div class="chart-card"><div class="chart-card-title">Daily Sessions</div><div class="chart-wrap"><canvas id="c-ga4-daily"></canvas></div></div>
+    </div>
+  </div>
+  <hr class="divider">
+
+  <!-- Insights -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-dot" style="background:#d2a8ff"></div>
+      <div class="section-title">💡 Insights & Recommendations</div>
+    </div>
+    <div class="insights-card">
+      ${ins.map(i=>`<div class="insight-item"><span class="insight-icon">${i.icon}</span><div class="insight-text">${i.text}</div></div>`).join('')}
+    </div>
+  </div>`;
+
+  /* ── CHARTS ── */
+  const C={blue:'#58a6ff',green:'#3fb950',purple:'#d2a8ff',yellow:'#e3b341',red:'#f85149',teal:'#39d353',orange:'#f0883e',pink:'#ff7b72',cyan:'#79c0ff'};
+  const PAL=[C.blue,C.green,C.purple,C.yellow,C.orange,C.teal,C.red,C.pink,C.cyan];
+
+  if(ghlDates.length){
+    CHARTS['ghl-d']=new Chart(document.getElementById('c-ghl-daily'),{type:'bar',data:{labels:ghlDates.map(d=>d.slice(5)),datasets:[
+      {label:'Calls',data:ghlDates.map(d=>ghl.daily[d]?.call||0),backgroundColor:'#1f6feb66',borderColor:C.blue,borderWidth:1,stack:'s'},
+      {label:'Forms',data:ghlDates.map(d=>ghl.daily[d]?.form||0),backgroundColor:'#23863666',borderColor:C.green,borderWidth:1,stack:'s'},
+      {label:'Unclassified',data:ghlDates.map(d=>ghl.daily[d]?.unknown||0),backgroundColor:'#30363d66',borderColor:'#6e7681',borderWidth:1,stack:'s'}
+    ]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'top',labels:{boxWidth:10}}},scales:{x:{grid:{color:'#21262d'},ticks:{maxRotation:45}},y:{grid:{color:'#21262d'},stacked:true}}}});
+  }
+
+  const srcTop=Object.entries(ghl.sources).sort((a,b)=>b[1]-a[1]).slice(0,8);
+  if(srcTop.length){
+    CHARTS['ghl-s']=new Chart(document.getElementById('c-ghl-sources'),{type:'doughnut',data:{labels:srcTop.map(([k])=>k.length>28?k.slice(0,28)+'…':k),datasets:[{data:srcTop.map(([,v])=>v),backgroundColor:PAL,borderWidth:2,borderColor:'#161b22'}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'right',labels:{boxWidth:10,font:{size:9},color:'#8b949e'}}}}});
+  }
+
+  if(gadsDates.length){
+    CHARTS['gads-d']=new Chart(document.getElementById('c-gads-daily'),{data:{labels:gadsDates.map(d=>d.slice(5)),datasets:[
+      {type:'bar',label:'Spend ($)',data:gadsDates.map(d=>+(gads.daily[d]?.spend||0).toFixed(0)),backgroundColor:'#1f6feb44',borderColor:C.blue,borderWidth:1,yAxisID:'y'},
+      {type:'line',label:'Conversions',data:gadsDates.map(d=>+(gads.daily[d]?.conv||0).toFixed(1)),borderColor:C.green,backgroundColor:'#23863622',borderWidth:2,pointRadius:2,tension:0.35,fill:true,yAxisID:'y2'}
+    ]},options:{responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},plugins:{legend:{position:'top',labels:{boxWidth:10}}},scales:{x:{grid:{color:'#21262d'},ticks:{maxRotation:45}},y:{grid:{color:'#21262d'},ticks:{callback:v=>'$'+v}},y2:{position:'right',grid:{display:false}}}}});
+  }
+
+  const cSort=Object.entries(gads.campaigns).sort((a,b)=>b[1].conv-a[1].conv).slice(0,8);
+  if(cSort.length){
+    CHARTS['gads-c']=new Chart(document.getElementById('c-gads-camp'),{type:'bar',data:{labels:cSort.map(([k])=>k.length>22?k.slice(0,22)+'…':k),datasets:[{label:'Conv.',data:cSort.map(([,v])=>+v.conv.toFixed(1)),backgroundColor:C.green+'88',borderColor:C.green,borderWidth:1}]},options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{grid:{color:'#21262d'}},y:{grid:{color:'#21262d'},ticks:{font:{size:10}}}}}});
+  }
+
+  const chSort=Object.entries(ga4.channels).sort((a,b)=>b[1]-a[1]);
+  if(chSort.length){
+    CHARTS['ga4-ch']=new Chart(document.getElementById('c-ga4-ch'),{type:'bar',data:{labels:chSort.map(([k])=>k),datasets:[{data:chSort.map(([,v])=>v),backgroundColor:PAL.map(c=>c+'88'),borderColor:PAL,borderWidth:1}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{grid:{color:'#21262d'},ticks:{maxRotation:30}},y:{grid:{color:'#21262d'}}}}});
+  }
+
+  const ctSort=Object.entries(ga4.countries).sort((a,b)=>b[1]-a[1]).slice(0,8);
+  if(ctSort.length){
+    CHARTS['ga4-ct']=new Chart(document.getElementById('c-ga4-ct'),{type:'bar',data:{labels:ctSort.map(([k])=>k),datasets:[{data:ctSort.map(([,v])=>v),backgroundColor:C.purple+'88',borderColor:C.purple,borderWidth:1}]},options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{grid:{color:'#21262d'}},y:{grid:{color:'#21262d'},ticks:{font:{size:10}}}}}});
+  }
+
+  if(ga4Dates.length){
+    CHARTS['ga4-d']=new Chart(document.getElementById('c-ga4-daily'),{type:'line',data:{labels:ga4Dates.map(d=>d.slice(5)),datasets:[{label:'Sessions',data:ga4Dates.map(d=>ga4.daily[d]||0),borderColor:C.yellow,backgroundColor:C.yellow+'22',borderWidth:2,pointRadius:2,tension:0.35,fill:true}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{grid:{color:'#21262d'},ticks:{maxRotation:45}},y:{grid:{color:'#21262d'}}}}});
+  }
+}
+
+/* ── DATE CONTROLS ── */
+function setPreset(p) {
+  dateConfig.preset=p;
+  if (p==='yesterday')     { dateConfig.from=yesterday(); dateConfig.to=yesterday(); }
+  else if (p==='today')    { dateConfig.from=today();     dateConfig.to=today(); }
+  else if (p==='last_7d')  { dateConfig.from=daysAgo(7);  dateConfig.to=yesterday(); }
+  else if (p==='last_30d') { dateConfig.from=daysAgo(30); dateConfig.to=yesterday(); }
+  if (p!=='custom') { reload(); }
+  else {
+    document.querySelectorAll('.date-preset-btn').forEach(b=>b.classList.remove('active'));
+    document.querySelectorAll('.date-preset-btn')[4].classList.add('active');
+    const wrap=document.getElementById('custom-wrap');
+    if(wrap) wrap.classList.add('visible');
+  }
+}
+
+function applyCustom() {
+  const from=document.getElementById('date-from')?.value;
+  const to=document.getElementById('date-to')?.value;
+  if(!from||!to) return;
+  dateConfig.from=from; dateConfig.to=to; dateConfig.preset='custom';
+  reload();
+}
+
+/* ── INIT ── */
+function setMsg(t) { const e=document.getElementById('load-msg'); if(e) e.textContent=t; }
+
+async function reload() {
+  destroyCharts();
+  document.getElementById('app').innerHTML=`<div class="center-box"><div class="spinner"></div><div class="loading-label" id="load-msg">Loading…</div></div>`;
+  try {
+    const {ghl,gads,ga4,keywords}=await fetchAll();
+    renderApp(ghl,gads,ga4,keywords);
+  } catch(e) {
+    document.getElementById('app').innerHTML=`
+      <div class="center-box">
+        <div class="error-box">❌ Error loading data:<br><strong>${e.message}</strong></div>
+        <button class="btn" onclick="reload()" style="margin-top:16px">↻ Retry</button>
+      </div>`;
+  }
+}
+
+window.addEventListener('load', reload);
+</script>
+</body>
+</html>
