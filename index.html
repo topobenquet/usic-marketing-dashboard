@@ -163,16 +163,31 @@ async function fetchAll() {
   setMsg('Fetching GHL, Google Ads & Google Analytics…');
   const [ghlR, gadsR, ga4R, kwR] = await Promise.allSettled([
     windsorFetch('gohighlevel', GHL_ACC,  ['contact_date_added','contact_source','contact_id']),
-    windsorFetch('google_ads',  GADS_ACC, ['date','campaign','spend','clicks','impressions','conversions','ctr','cpc']),
+    windsorFetch('google_ads',  GADS_ACC, ['date','campaign','spend','clicks','impressions','conversions','ctr','cpc','account_id']),
     windsorFetch('googleanalytics4', GA4_ACC, ['date','sessions','users','session_default_channel_group','country']),
-    windsorFetch('google_ads',  GADS_ACC, ['keyword','match_type','clicks','impressions','ctr','cpc','conversions','spend'])
+    windsorFetch('google_ads',  GADS_ACC, ['keyword','match_type','clicks','impressions','ctr','cpc','conversions','spend','account_id'])
   ]);
+  // Filter Google Ads to account 370-923-9676 only (REST API doesn't filter server-side)
+  const filterGAds = rows => rows.filter(r => !r.account_id || r.account_id === GADS_ACC);
   return {
-    ghl:      ghlR.status==='fulfilled'  ? ghlR.value  : [],
-    gads:     gadsR.status==='fulfilled' ? gadsR.value : [],
-    ga4:      ga4R.status==='fulfilled'  ? ga4R.value  : [],
-    keywords: kwR.status==='fulfilled'   ? kwR.value   : []
+    ghl:      ghlR.status==='fulfilled'  ? ghlR.value                      : [],
+    gads:     gadsR.status==='fulfilled' ? filterGAds(gadsR.value)         : [],
+    ga4:      ga4R.status==='fulfilled'  ? ga4R.value                      : [],
+    keywords: kwR.status==='fulfilled'   ? filterGAds(kwR.value)           : []
   };
+}
+
+/* ── DATE RANGE UTIL — fills all dates from→to with a default value ── */
+function fillDateRange(obj, defaultVal) {
+  const result = {};
+  const cur = new Date(dateConfig.from);
+  const end = new Date(dateConfig.to);
+  while (cur <= end) {
+    const d = cur.toISOString().slice(0,10);
+    result[d] = obj[d] !== undefined ? obj[d] : defaultVal;
+    cur.setDate(cur.getDate() + 1);
+  }
+  return result;
 }
 
 /* ── PROCESS ── */
@@ -284,9 +299,14 @@ function renderApp(ghlR, gadsR, ga4R, kwR) {
   const ins  = makeInsights(ghl, gads, ga4);
   const now  = new Date().toLocaleString('en-US',{dateStyle:'medium',timeStyle:'short'});
 
-  const gadsDates=[...Object.keys(gads.daily)].sort();
-  const ghlDates=[...Object.keys(ghl.daily)].sort();
-  const ga4Dates=[...Object.keys(ga4.daily)].sort();
+  // Fill every date in the selected range (shows 0 for days with no data)
+  const ghlDailyFull  = fillDateRange(ghl.daily,  {call:0,form:0,unknown:0});
+  const gadsDailyFull = fillDateRange(gads.daily, {spend:0,clicks:0,impr:0,conv:0});
+  const ga4DailyFull  = fillDateRange(ga4.daily,  0);
+
+  const gadsDates=[...Object.keys(gadsDailyFull)].sort();
+  const ghlDates=[...Object.keys(ghlDailyFull)].sort();
+  const ga4Dates=[...Object.keys(ga4DailyFull)].sort();
 
   const campRows=Object.entries(gads.campaigns).sort((a,b)=>b[1].spend-a[1].spend).map(([name,m])=>{
     const ctr=m.impr>0?m.clicks/m.impr:0, cpc=m.clicks>0?m.spend/m.clicks:0, cpa=m.conv>0?m.spend/m.conv:0;
@@ -411,9 +431,9 @@ function renderApp(ghlR, gadsR, ga4R, kwR) {
 
   if(ghlDates.length){
     CHARTS['ghl-d']=new Chart(document.getElementById('c-ghl-daily'),{type:'bar',data:{labels:ghlDates.map(d=>d.slice(5)),datasets:[
-      {label:'Calls',data:ghlDates.map(d=>ghl.daily[d]?.call||0),backgroundColor:'#1f6feb66',borderColor:C.blue,borderWidth:1,stack:'s'},
-      {label:'Forms',data:ghlDates.map(d=>ghl.daily[d]?.form||0),backgroundColor:'#23863666',borderColor:C.green,borderWidth:1,stack:'s'},
-      {label:'Unclassified',data:ghlDates.map(d=>ghl.daily[d]?.unknown||0),backgroundColor:'#30363d66',borderColor:'#6e7681',borderWidth:1,stack:'s'}
+      {label:'Calls',data:ghlDates.map(d=>ghlDailyFull[d]?.call||0),backgroundColor:'#1f6feb66',borderColor:C.blue,borderWidth:1,stack:'s'},
+      {label:'Forms',data:ghlDates.map(d=>ghlDailyFull[d]?.form||0),backgroundColor:'#23863666',borderColor:C.green,borderWidth:1,stack:'s'},
+      {label:'Unclassified',data:ghlDates.map(d=>ghlDailyFull[d]?.unknown||0),backgroundColor:'#30363d66',borderColor:'#6e7681',borderWidth:1,stack:'s'}
     ]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'top',labels:{boxWidth:10}}},scales:{x:{grid:{color:'#21262d'},ticks:{maxRotation:45}},y:{grid:{color:'#21262d'},stacked:true}}}});
   }
 
@@ -424,8 +444,8 @@ function renderApp(ghlR, gadsR, ga4R, kwR) {
 
   if(gadsDates.length){
     CHARTS['gads-d']=new Chart(document.getElementById('c-gads-daily'),{data:{labels:gadsDates.map(d=>d.slice(5)),datasets:[
-      {type:'bar',label:'Spend ($)',data:gadsDates.map(d=>+(gads.daily[d]?.spend||0).toFixed(0)),backgroundColor:'#1f6feb44',borderColor:C.blue,borderWidth:1,yAxisID:'y'},
-      {type:'line',label:'Conversions',data:gadsDates.map(d=>+(gads.daily[d]?.conv||0).toFixed(1)),borderColor:C.green,backgroundColor:'#23863622',borderWidth:2,pointRadius:2,tension:0.35,fill:true,yAxisID:'y2'}
+      {type:'bar',label:'Spend ($)',data:gadsDates.map(d=>+(gadsDailyFull[d]?.spend||0).toFixed(0)),backgroundColor:'#1f6feb44',borderColor:C.blue,borderWidth:1,yAxisID:'y'},
+      {type:'line',label:'Conversions',data:gadsDates.map(d=>+(gadsDailyFull[d]?.conv||0).toFixed(1)),borderColor:C.green,backgroundColor:'#23863622',borderWidth:2,pointRadius:2,tension:0.35,fill:true,yAxisID:'y2'}
     ]},options:{responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},plugins:{legend:{position:'top',labels:{boxWidth:10}}},scales:{x:{grid:{color:'#21262d'},ticks:{maxRotation:45}},y:{grid:{color:'#21262d'},ticks:{callback:v=>'$'+v}},y2:{position:'right',grid:{display:false}}}}});
   }
 
@@ -445,7 +465,7 @@ function renderApp(ghlR, gadsR, ga4R, kwR) {
   }
 
   if(ga4Dates.length){
-    CHARTS['ga4-d']=new Chart(document.getElementById('c-ga4-daily'),{type:'line',data:{labels:ga4Dates.map(d=>d.slice(5)),datasets:[{label:'Sessions',data:ga4Dates.map(d=>ga4.daily[d]||0),borderColor:C.yellow,backgroundColor:C.yellow+'22',borderWidth:2,pointRadius:2,tension:0.35,fill:true}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{grid:{color:'#21262d'},ticks:{maxRotation:45}},y:{grid:{color:'#21262d'}}}}});
+    CHARTS['ga4-d']=new Chart(document.getElementById('c-ga4-daily'),{type:'line',data:{labels:ga4Dates.map(d=>d.slice(5)),datasets:[{label:'Sessions',data:ga4Dates.map(d=>ga4DailyFull[d]||0),borderColor:C.yellow,backgroundColor:C.yellow+'22',borderWidth:2,pointRadius:2,tension:0.35,fill:true}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{grid:{color:'#21262d'},ticks:{maxRotation:45}},y:{grid:{color:'#21262d'}}}}});
   }
 }
 
