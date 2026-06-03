@@ -352,11 +352,10 @@ function renderApp(ghlR, gadsR, ga4R, kwR) {
       <div class="section-dot" style="background:#3fb950"></div>
       <div class="section-title">GHL — Leads</div>
     </div>
-    <div class="kpi-row kpi-4">
+    <div class="kpi-row" style="grid-template-columns:repeat(3,1fr)">
       <div class="kpi"><div class="kpi-label">Total Leads</div><div class="kpi-val c-blue">${fmt.n(ghl.total)}</div><div class="kpi-sub">Excl. bulk imports</div></div>
       <div class="kpi"><div class="kpi-label">📞 Calls</div><div class="kpi-val c-blue">${fmt.n(ghl.calls)}</div><div class="kpi-sub">${ghl.total>0?fmt.pct0(ghl.calls/ghl.total):'—'} of total</div></div>
       <div class="kpi"><div class="kpi-label">📋 Form Submissions</div><div class="kpi-val c-green">${fmt.n(ghl.forms)}</div><div class="kpi-sub">${ghl.total>0?fmt.pct0(ghl.forms/ghl.total):'—'} of total</div></div>
-      <div class="kpi"><div class="kpi-label">❓ Unclassified</div><div class="kpi-val c-gray">${fmt.n(ghl.unknown)}</div><div class="kpi-sub">Unrecognized source</div></div>
     </div>
     <div class="chart-row chart-2">
       <div class="chart-card"><div class="chart-card-title">Daily Leads — Calls vs. Form Submissions</div><div class="chart-wrap"><canvas id="c-ghl-daily"></canvas></div></div>
@@ -432,8 +431,7 @@ function renderApp(ghlR, gadsR, ga4R, kwR) {
   if(ghlDates.length){
     CHARTS['ghl-d']=new Chart(document.getElementById('c-ghl-daily'),{type:'bar',data:{labels:ghlDates.map(d=>d.slice(5)),datasets:[
       {label:'Calls',data:ghlDates.map(d=>ghlDailyFull[d]?.call||0),backgroundColor:'#1f6feb66',borderColor:C.blue,borderWidth:1,stack:'s'},
-      {label:'Forms',data:ghlDates.map(d=>ghlDailyFull[d]?.form||0),backgroundColor:'#23863666',borderColor:C.green,borderWidth:1,stack:'s'},
-      {label:'Unclassified',data:ghlDates.map(d=>ghlDailyFull[d]?.unknown||0),backgroundColor:'#30363d66',borderColor:'#6e7681',borderWidth:1,stack:'s'}
+      {label:'Forms',data:ghlDates.map(d=>ghlDailyFull[d]?.form||0),backgroundColor:'#23863666',borderColor:C.green,borderWidth:1,stack:'s'}
     ]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'top',labels:{boxWidth:10}}},scales:{x:{grid:{color:'#21262d'},ticks:{maxRotation:45}},y:{grid:{color:'#21262d'},stacked:true}}}});
   }
 
