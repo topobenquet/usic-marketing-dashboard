@@ -2,6 +2,17 @@
   "lastUpdated": "2026-06-09",
   "transactions": [
     {
+      "date": "2026-01-01",
+      "customer": "Paolo Barbieri",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 100.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
       "date": "2026-01-02",
       "customer": "Mauro Alberto Sauceda",
       "product": "K1 Visa",
@@ -48,7 +59,7 @@
     {
       "date": "2026-01-02",
       "customer": "Orit Tepper",
-      "product": "N-400",
+      "product": "n-400",
       "service": "N-400 Citizenship",
       "finder": "Fernando",
       "closer": "Fernando",
@@ -80,7 +91,7 @@
     },
     {
       "date": "2026-01-03",
-      "customer": "Shellyan Spence",
+      "customer": "Shellyan Spence for elvia Ferguson",
       "product": "NVC",
       "service": "NVC Processing",
       "finder": "Fernando",
@@ -158,7 +169,7 @@
     {
       "date": "2026-01-06",
       "customer": "Orit Tepper",
-      "product": "N-400",
+      "product": "n-400",
       "service": "N-400 Citizenship",
       "finder": "Fernando",
       "closer": "Fernando",
@@ -223,7 +234,7 @@
     },
     {
       "date": "2026-01-07",
-      "customer": "Sidney Winebrenner",
+      "customer": "Sidney Winebrenner for Drasko",
       "product": "I-90",
       "service": "I-90 Green Card Renewal",
       "finder": "Fernando",
@@ -323,7 +334,7 @@
     {
       "date": "2026-01-09",
       "customer": "Yali Garcia",
-      "product": "I-90",
+      "product": "i-90",
       "service": "I-90 Green Card Renewal",
       "finder": "Fernando",
       "closer": "Fernando",
@@ -466,7 +477,7 @@
     {
       "date": "2026-01-14",
       "customer": "Marcos Hernandez",
-      "product": "Special",
+      "product": "",
       "service": "Other",
       "finder": "Fernando",
       "closer": "Fernando",
@@ -553,7 +564,7 @@
     },
     {
       "date": "2026-01-15",
-      "customer": "Ruben Ibarra",
+      "customer": "Ruben Ibarra mothers",
       "product": "I-90",
       "service": "I-90 Green Card Renewal",
       "finder": "Fernando",
@@ -566,7 +577,7 @@
       "date": "2026-01-16",
       "customer": "Berenice",
       "product": "Waiver",
-      "service": "I-601A Waiver",
+      "service": "Other",
       "finder": "Hector",
       "closer": "Tony",
       "amount": 300.0,
@@ -631,7 +642,7 @@
     {
       "date": "2026-01-16",
       "customer": "Siseina Ware",
-      "product": "Special",
+      "product": "",
       "service": "Other",
       "finder": "Fernando",
       "closer": "Fernando",
@@ -761,6 +772,17 @@
       "isPaid": true
     },
     {
+      "date": "2026-01-23",
+      "customer": "Phetchinda",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "David",
+      "closer": "Laura",
+      "amount": 200.0,
+      "paidStatus": "Pending",
+      "isPaid": false
+    },
+    {
       "date": "2026-01-26",
       "customer": "Deno Mcintosh",
       "product": "N-400",
@@ -883,7 +905,7 @@
     },
     {
       "date": "2026-01-28",
-      "customer": "Jose Lagunas",
+      "customer": "Jose lagunas",
       "product": "I-90 Online",
       "service": "I-90 Green Card Renewal",
       "finder": "Fernando",
@@ -902,6 +924,17 @@
       "amount": 500.0,
       "paidStatus": "Paid",
       "isPaid": true
+    },
+    {
+      "date": "2026-01-28",
+      "customer": "Maria Reyes",
+      "product": "N-400/912",
+      "service": "N-400 Citizenship",
+      "finder": "David",
+      "closer": "David",
+      "amount": 350.0,
+      "paidStatus": "Pending",
+      "isPaid": false
     },
     {
       "date": "2026-01-28",
@@ -938,6 +971,17 @@
     },
     {
       "date": "2026-01-29",
+      "customer": "Leo Kura",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "David",
+      "closer": "David",
+      "amount": 250.0,
+      "paidStatus": "Pending",
+      "isPaid": false
+    },
+    {
+      "date": "2026-01-29",
       "customer": "Mario",
       "product": "N-400/912",
       "service": "N-400 Citizenship",
@@ -960,8 +1004,8 @@
     },
     {
       "date": "2026-01-29",
-      "customer": "Hugo Sanchez daughter",
-      "product": "N-400",
+      "customer": "Hugo sanchez daughter",
+      "product": "n-400",
       "service": "N-400 Citizenship",
       "finder": "Fernando",
       "closer": "Fernando",
@@ -1268,7 +1312,7 @@
     },
     {
       "date": "2026-02-11",
-      "customer": "Luisa",
+      "customer": "Luisa for",
       "product": "NVC",
       "service": "NVC Processing",
       "finder": "Hector",
@@ -1301,7 +1345,7 @@
     },
     {
       "date": "2026-02-11",
-      "customer": "Betty Ndong",
+      "customer": "Betty ndong",
       "product": "Visa Fees",
       "service": "Visa Fees",
       "finder": "Fernando",
@@ -1335,7 +1379,7 @@
     {
       "date": "2026-02-12",
       "customer": "Janne",
-      "product": "I-90",
+      "product": "i-90",
       "service": "I-90 Green Card Renewal",
       "finder": "David",
       "closer": "David",
@@ -1477,7 +1521,7 @@
     },
     {
       "date": "2026-02-18",
-      "customer": "Alondra",
+      "customer": "alondra",
       "product": "Translation Revenue",
       "service": "Translation",
       "finder": "Hector",
@@ -1582,6 +1626,17 @@
       "finder": "Fernando",
       "closer": "Tony",
       "amount": 1200.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-02-20",
+      "customer": "Marcia Weise",
+      "product": "",
+      "service": "Other",
+      "finder": "",
+      "closer": "",
+      "amount": 1.0,
       "paidStatus": "Paid",
       "isPaid": true
     },
@@ -1841,8 +1896,8 @@
     {
       "date": "2026-02-27",
       "customer": "Yogendra Subeda",
-      "product": "USCIS Call",
-      "service": "USCIS Call",
+      "product": "USCIS",
+      "service": "Other",
       "finder": "Fernando",
       "closer": "Caro",
       "amount": 100.0,
@@ -1895,7 +1950,7 @@
     },
     {
       "date": "2026-02-28",
-      "customer": "Martin Father",
+      "customer": "Martin Father for Mother",
       "product": "I-130 Premium",
       "service": "I-130 Family Sponsorship",
       "finder": "Hector",
@@ -1929,13 +1984,24 @@
     {
       "date": "2026-03-02",
       "customer": "Jessie Odena",
-      "product": "I-90",
+      "product": "i-90",
       "service": "I-90 Green Card Renewal",
       "finder": "Fernando",
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
       "isPaid": true
+    },
+    {
+      "date": "2026-03-02",
+      "customer": "Edwar",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Hector",
+      "closer": "Hector",
+      "amount": 300.0,
+      "paidStatus": "Pending",
+      "isPaid": false
     },
     {
       "date": "2026-03-02",
@@ -1995,7 +2061,7 @@
     {
       "date": "2026-03-03",
       "customer": "Manuela Toggia",
-      "product": "N-400",
+      "product": "n-400",
       "service": "N-400 Citizenship",
       "finder": "Fernando",
       "closer": "Fernando",
@@ -2160,7 +2226,7 @@
     {
       "date": "2026-03-05",
       "customer": "Mark Matheson",
-      "product": "I-130",
+      "product": "i-130",
       "service": "I-130 Family Sponsorship",
       "finder": "Fernando",
       "closer": "Laura",
@@ -2170,7 +2236,7 @@
     },
     {
       "date": "2026-03-05",
-      "customer": "Anfernee Chambers",
+      "customer": "Anfernee chambers/ Esteban",
       "product": "All at Once",
       "service": "All at Once Bundle",
       "finder": "Fernando",
@@ -2258,7 +2324,7 @@
     },
     {
       "date": "2026-03-07",
-      "customer": "Armando Alvarez Noa",
+      "customer": "Armando ALvarez Noa",
       "product": "I-90/912",
       "service": "I-90 Green Card Renewal",
       "finder": "Hector",
@@ -2324,7 +2390,7 @@
     },
     {
       "date": "2026-03-09",
-      "customer": "Fanta Ketu",
+      "customer": "Fanta Ketu for Kuriha Bunnisso",
       "product": "I-130",
       "service": "I-130 Family Sponsorship",
       "finder": "Fernando",
@@ -2467,8 +2533,8 @@
     },
     {
       "date": "2026-03-12",
-      "customer": "Rosa Luperico",
-      "product": "N-400",
+      "customer": "Rosa Luperico for mom hortencia",
+      "product": "n-400",
       "service": "N-400 Citizenship",
       "finder": "Fernando",
       "closer": "Fernando",
@@ -2478,7 +2544,7 @@
     },
     {
       "date": "2026-03-12",
-      "customer": "Amanda Caballero",
+      "customer": "Amanda Caballero for son Jaime",
       "product": "N-400",
       "service": "N-400 Citizenship",
       "finder": "Fernando",
@@ -2500,7 +2566,7 @@
     },
     {
       "date": "2026-03-12",
-      "customer": "Ronilo De Leon",
+      "customer": "Ronilo De leon",
       "product": "N-400/912",
       "service": "N-400 Citizenship",
       "finder": "Hector",
@@ -2567,13 +2633,24 @@
     {
       "date": "2026-03-16",
       "customer": "Sueann Hayenn",
-      "product": "N-400",
+      "product": "n-400",
       "service": "N-400 Citizenship",
       "finder": "Fernando",
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
       "isPaid": true
+    },
+    {
+      "date": "2026-03-16",
+      "customer": "Keyla",
+      "product": "i-751",
+      "service": "I-751 Removal of Conditions",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 500.0,
+      "paidStatus": "Pending",
+      "isPaid": false
     },
     {
       "date": "2026-03-16",
@@ -2684,6 +2761,17 @@
       "amount": 500.0,
       "paidStatus": "Paid",
       "isPaid": true
+    },
+    {
+      "date": "2026-03-19",
+      "customer": "Devon Smith",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "David",
+      "closer": "David",
+      "amount": 250.0,
+      "paidStatus": "Pending",
+      "isPaid": false
     },
     {
       "date": "2026-03-19",
@@ -2819,6 +2907,17 @@
     },
     {
       "date": "2026-03-24",
+      "customer": "Alma Solis",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "Hector",
+      "closer": "Hector",
+      "amount": 200.0,
+      "paidStatus": "Pending",
+      "isPaid": false
+    },
+    {
+      "date": "2026-03-24",
       "customer": "Novka Karic",
       "product": "N-400",
       "service": "N-400 Citizenship",
@@ -2838,6 +2937,17 @@
       "amount": 500.0,
       "paidStatus": "Paid",
       "isPaid": true
+    },
+    {
+      "date": "2026-03-25",
+      "customer": "Keyla",
+      "product": "Special with Tony",
+      "service": "Other",
+      "finder": "David",
+      "closer": "David",
+      "amount": 500.0,
+      "paidStatus": "Pending",
+      "isPaid": false
     },
     {
       "date": "2026-03-25",
@@ -2970,6 +3080,17 @@
       "amount": 100.0,
       "paidStatus": "Paid",
       "isPaid": true
+    },
+    {
+      "date": "2026-04-01",
+      "customer": "Patricia",
+      "product": "Special with Tony",
+      "service": "Other",
+      "finder": "David",
+      "closer": "Tony",
+      "amount": 500.0,
+      "paidStatus": "Pending",
+      "isPaid": false
     },
     {
       "date": "2026-04-01",
@@ -3325,7 +3446,7 @@
     },
     {
       "date": "2026-04-09",
-      "customer": "Miguel",
+      "customer": "Miguel for Maria",
       "product": "Fiance 1st step",
       "service": "K1/Fianc\u00e9 Visa",
       "finder": "Hector",
@@ -3337,7 +3458,7 @@
     {
       "date": "2026-04-10",
       "customer": "Shanita Johnson",
-      "product": "NVC",
+      "product": "nvc",
       "service": "NVC Processing",
       "finder": "Fernando",
       "closer": "Laura",
@@ -3556,7 +3677,7 @@
     },
     {
       "date": "2026-04-15",
-      "customer": "Sandra Halos",
+      "customer": "Sandra Halos for Hector Feliz",
       "product": "N-565/912",
       "service": "N-565",
       "finder": "Fernando",
@@ -3700,7 +3821,7 @@
     {
       "date": "2026-04-17",
       "customer": "Ibrhaim Seck",
-      "product": "Special",
+      "product": "",
       "service": "Other",
       "finder": "Fernando",
       "closer": "Fernando",
@@ -3798,6 +3919,17 @@
     },
     {
       "date": "2026-04-22",
+      "customer": "Maria Aguirre",
+      "product": "N-400/912",
+      "service": "N-400 Citizenship",
+      "finder": "Hector",
+      "closer": "Caro",
+      "amount": 200.0,
+      "paidStatus": "Pending",
+      "isPaid": false
+    },
+    {
+      "date": "2026-04-22",
       "customer": "Abioun Akinola",
       "product": "NVC",
       "service": "NVC Processing",
@@ -3864,6 +3996,17 @@
     },
     {
       "date": "2026-04-24",
+      "customer": "Sugey",
+      "product": "All at Once",
+      "service": "All at Once Bundle",
+      "finder": "David",
+      "closer": "Laura",
+      "amount": 200.0,
+      "paidStatus": "Pending",
+      "isPaid": false
+    },
+    {
+      "date": "2026-04-24",
       "customer": "Richemene Exilhomme",
       "product": "I-90",
       "service": "I-90 Green Card Renewal",
@@ -3875,14 +4018,36 @@
     },
     {
       "date": "2026-04-24",
+      "customer": "Garfield",
+      "product": "RFE",
+      "service": "Other",
+      "finder": "David",
+      "closer": "Hector",
+      "amount": 200.0,
+      "paidStatus": "Pending",
+      "isPaid": false
+    },
+    {
+      "date": "2026-04-24",
       "customer": "Huyen Mai",
-      "product": "N-565",
+      "product": "n-565",
       "service": "N-565",
       "finder": "Fernando",
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
       "isPaid": true
+    },
+    {
+      "date": "2026-04-24",
+      "customer": "Margaritas",
+      "product": "",
+      "service": "Other",
+      "finder": "",
+      "closer": "",
+      "amount": 200.0,
+      "paidStatus": "Pending",
+      "isPaid": false
     },
     {
       "date": "2026-04-24",
@@ -3894,6 +4059,17 @@
       "amount": 150.0,
       "paidStatus": "Paid",
       "isPaid": true
+    },
+    {
+      "date": "2026-04-24",
+      "customer": "Tiffany Johnson",
+      "product": "NVC",
+      "service": "NVC Processing",
+      "finder": "David",
+      "closer": "Laura",
+      "amount": 350.0,
+      "paidStatus": "Pending",
+      "isPaid": false
     },
     {
       "date": "2026-04-25",
@@ -3953,7 +4129,7 @@
     {
       "date": "2026-04-28",
       "customer": "Lim Castro",
-      "product": "N-565",
+      "product": "n-565",
       "service": "N-565",
       "finder": "Eddy",
       "closer": "Eddy",
@@ -4063,7 +4239,7 @@
     {
       "date": "2026-04-29",
       "customer": "Margie Gagne",
-      "product": "N-400",
+      "product": "n-400",
       "service": "N-400 Citizenship",
       "finder": "Fernando",
       "closer": "Fernando",
@@ -4117,7 +4293,7 @@
     },
     {
       "date": "2026-05-04",
-      "customer": "Juana Yanko",
+      "customer": "juana yanko",
       "product": "N-400",
       "service": "N-400 Citizenship",
       "finder": "Fernando",
@@ -4139,7 +4315,7 @@
     },
     {
       "date": "2026-05-05",
-      "customer": "Yanette Norda",
+      "customer": "Yanette Norda/Hugh Allean",
       "product": "I-130",
       "service": "I-130 Family Sponsorship",
       "finder": "Fernando",
@@ -4293,17 +4469,6 @@
     },
     {
       "date": "2026-05-08",
-      "customer": "Alma Solis",
-      "product": "N-400/912",
-      "service": "N-400 Citizenship",
-      "finder": "Hector",
-      "closer": "Hector",
-      "amount": 200.0,
-      "paidStatus": "Pending",
-      "isPaid": false
-    },
-    {
-      "date": "2026-05-08",
       "customer": "Sandra Montoya",
       "product": "I-751",
       "service": "I-751 Removal of Conditions",
@@ -4315,11 +4480,11 @@
     },
     {
       "date": "2026-05-08",
-      "customer": "Garfield",
-      "product": "RFE",
-      "service": "Other",
-      "finder": "David",
-      "closer": "Laura",
+      "customer": "Alma Solis",
+      "product": "N-400/912",
+      "service": "N-400 Citizenship",
+      "finder": "Hector",
+      "closer": "Hector",
       "amount": 200.0,
       "paidStatus": "Pending",
       "isPaid": false
@@ -4546,7 +4711,7 @@
     },
     {
       "date": "2026-05-14",
-      "customer": "Breanna Seymour",
+      "customer": "Breanna Seymour for austin Seymour",
       "product": "All at Once",
       "service": "All at Once Bundle",
       "finder": "Fernando",
@@ -4664,17 +4829,6 @@
       "amount": 300.0,
       "paidStatus": "Paid",
       "isPaid": true
-    },
-    {
-      "date": "2026-05-20",
-      "customer": "Roberto Luis",
-      "product": "I-130",
-      "service": "I-130 Family Sponsorship",
-      "finder": "David",
-      "closer": "Laura",
-      "amount": 500.0,
-      "paidStatus": "Pending",
-      "isPaid": false
     },
     {
       "date": "2026-05-20",
@@ -5018,6 +5172,94 @@
       "isPaid": true
     },
     {
+      "date": "2026-06-01",
+      "customer": "Steve Hardy",
+      "product": "I-90 Online",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 150.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-01",
+      "customer": "Catherine Luma",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 150.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-01",
+      "customer": "Janet Boetemma",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-01",
+      "customer": "Juan Vargas",
+      "product": "I-90 Online",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-01",
+      "customer": "Steve Hardy",
+      "product": "I-90 Online",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 150.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-01",
+      "customer": "Catherine Luma",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 150.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-01",
+      "customer": "Janet Boetemma",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-01",
+      "customer": "Juan Vargas",
+      "product": "I-90 Online",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
       "date": "2026-06-02",
       "customer": "Catherine Luma",
       "product": "I-90",
@@ -5053,7 +5295,95 @@
     {
       "date": "2026-06-02",
       "customer": "Glenn Bransfiedl",
+      "product": "i-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 150.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-02",
+      "customer": "Catherine Luma",
       "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 50.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-02",
+      "customer": "Ted Hardy",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 100.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-02",
+      "customer": "Mark Matheson",
+      "product": "I-130",
+      "service": "I-130 Family Sponsorship",
+      "finder": "Fernando",
+      "closer": "Laura",
+      "amount": 400.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-02",
+      "customer": "Glenn Bransfiedl",
+      "product": "i-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 150.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-02",
+      "customer": "Catherine Luma",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 50.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-02",
+      "customer": "Ted Hardy",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 100.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-02",
+      "customer": "Mark Matheson",
+      "product": "I-130",
+      "service": "I-130 Family Sponsorship",
+      "finder": "Fernando",
+      "closer": "Laura",
+      "amount": 400.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-02",
+      "customer": "Glenn Bransfiedl",
+      "product": "i-90",
       "service": "I-90 Green Card Renewal",
       "finder": "Fernando",
       "closer": "Fernando",
@@ -5108,11 +5438,231 @@
     {
       "date": "2026-06-03",
       "customer": "Glenn Bransfield",
-      "product": "I-90",
+      "product": "i-90",
       "service": "I-90 Green Card Renewal",
       "finder": "Fernando",
       "closer": "Fernando",
       "amount": 100.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-03",
+      "customer": "Christian Garcia",
+      "product": "All at Once",
+      "service": "All at Once Bundle",
+      "finder": "Hector",
+      "closer": "Laura",
+      "amount": 500.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-03",
+      "customer": "Arturo Arevelo",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 150.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-03",
+      "customer": "Aviel Silvera",
+      "product": "All at Once",
+      "service": "All at Once Bundle",
+      "finder": "Fernando",
+      "closer": "Laura",
+      "amount": 250.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-03",
+      "customer": "Aviel Silvera",
+      "product": "All at Once",
+      "service": "All at Once Bundle",
+      "finder": "Fernando",
+      "closer": "Laura",
+      "amount": 500.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-03",
+      "customer": "Glenn Bransfield",
+      "product": "i-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 100.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-03",
+      "customer": "Christian Garcia",
+      "product": "All at Once",
+      "service": "All at Once Bundle",
+      "finder": "Hector",
+      "closer": "Laura",
+      "amount": 500.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-03",
+      "customer": "Arturo Arevelo",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 150.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-03",
+      "customer": "Aviel Silvera",
+      "product": "All at Once",
+      "service": "All at Once Bundle",
+      "finder": "Fernando",
+      "closer": "Laura",
+      "amount": 250.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-03",
+      "customer": "Aviel Silvera",
+      "product": "All at Once",
+      "service": "All at Once Bundle",
+      "finder": "Fernando",
+      "closer": "Laura",
+      "amount": 500.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-03",
+      "customer": "Glenn Bransfield",
+      "product": "i-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 100.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-04",
+      "customer": "David Wheeler",
+      "product": "I-90 Online",
+      "service": "I-90 Green Card Renewal",
+      "finder": "David",
+      "closer": "David",
+      "amount": 300.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-04",
+      "customer": "Janette Saldana",
+      "product": "All at Once",
+      "service": "All at Once Bundle",
+      "finder": "Hector",
+      "closer": "Laura",
+      "amount": 500.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-04",
+      "customer": "Abraham Ayo",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-04",
+      "customer": "Mario Avila",
+      "product": "All at Once",
+      "service": "All at Once Bundle",
+      "finder": "Hector",
+      "closer": "Laura",
+      "amount": 400.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-04",
+      "customer": "Colin Lawson",
+      "product": "I-90 Online",
+      "service": "I-90 Green Card Renewal",
+      "finder": "David",
+      "closer": "David",
+      "amount": 300.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-04",
+      "customer": "David Wheeler",
+      "product": "I-90 Online",
+      "service": "I-90 Green Card Renewal",
+      "finder": "David",
+      "closer": "David",
+      "amount": 300.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-04",
+      "customer": "Janette Saldana",
+      "product": "All at Once",
+      "service": "All at Once Bundle",
+      "finder": "Hector",
+      "closer": "Laura",
+      "amount": 500.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-04",
+      "customer": "Abraham Ayo",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-04",
+      "customer": "Mario Avila",
+      "product": "All at Once",
+      "service": "All at Once Bundle",
+      "finder": "Hector",
+      "closer": "Laura",
+      "amount": 400.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-04",
+      "customer": "Colin Lawson",
+      "product": "I-90 Online",
+      "service": "I-90 Green Card Renewal",
+      "finder": "David",
+      "closer": "David",
+      "amount": 300.0,
       "paidStatus": "Paid",
       "isPaid": true
     },
@@ -5207,8 +5757,162 @@
     {
       "date": "2026-06-05",
       "customer": "Tometta Walker",
-      "product": "I-90",
+      "product": "i-90",
       "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-05",
+      "customer": "Adriana Lopez",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 150.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-05",
+      "customer": "Ramesh",
+      "product": "I-751",
+      "service": "I-751 Removal of Conditions",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 300.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-05",
+      "customer": "Michael Cirociari",
+      "product": "N-565",
+      "service": "N-565",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-05",
+      "customer": "Tometta Walker",
+      "product": "i-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-05",
+      "customer": "Adriana Lopez",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 150.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-05",
+      "customer": "Ramesh",
+      "product": "I-751",
+      "service": "I-751 Removal of Conditions",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 300.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-05",
+      "customer": "Michael Cirociari",
+      "product": "N-565",
+      "service": "N-565",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-05",
+      "customer": "Tometta Walker",
+      "product": "i-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-08",
+      "customer": "Emma Serna",
+      "product": "I-601A",
+      "service": "I-601A Waiver",
+      "finder": "Hector",
+      "closer": "Tony",
+      "amount": 500.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-08",
+      "customer": "Anelie",
+      "product": "NVC",
+      "service": "NVC Processing",
+      "finder": "David",
+      "closer": "Laura",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-08",
+      "customer": "Musa Karmara",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-08",
+      "customer": "Emma Serna",
+      "product": "I-601A",
+      "service": "I-601A Waiver",
+      "finder": "Hector",
+      "closer": "Tony",
+      "amount": 500.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-08",
+      "customer": "Anelie",
+      "product": "NVC",
+      "service": "NVC Processing",
+      "finder": "David",
+      "closer": "Laura",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true
+    },
+    {
+      "date": "2026-06-08",
+      "customer": "Musa Karmara",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
       "finder": "Fernando",
       "closer": "Fernando",
       "amount": 200.0,
@@ -5304,6 +6008,182 @@
       "isPaid": false
     },
     {
+      "date": "2026-06-09",
+      "customer": "Lizeth",
+      "product": "I-601A",
+      "service": "I-601A Waiver",
+      "finder": "Fernando",
+      "closer": "Tony",
+      "amount": 1300.0,
+      "paidStatus": "Pending",
+      "isPaid": false
+    },
+    {
+      "date": "2026-06-09",
+      "customer": "Gabriel",
+      "product": "NVC",
+      "service": "NVC Processing",
+      "finder": "Hector",
+      "closer": "Laura",
+      "amount": 300.0,
+      "paidStatus": "Pending",
+      "isPaid": false
+    },
+    {
+      "date": "2026-06-09",
+      "customer": "Pedro Llena",
+      "product": "NVC",
+      "service": "NVC Processing",
+      "finder": "Hector",
+      "closer": "Laura",
+      "amount": 200.0,
+      "paidStatus": "Pending",
+      "isPaid": false
+    },
+    {
+      "date": "2026-06-09",
+      "customer": "Elvis",
+      "product": "NVC",
+      "service": "NVC Processing",
+      "finder": "David",
+      "closer": "Laura",
+      "amount": 200.0,
+      "paidStatus": "Pending",
+      "isPaid": false
+    },
+    {
+      "date": "2026-06-09",
+      "customer": "Elvis",
+      "product": "CRBA",
+      "service": "CRBA",
+      "finder": "David",
+      "closer": "Jessica",
+      "amount": 200.0,
+      "paidStatus": "Pending",
+      "isPaid": false
+    },
+    {
+      "date": "2026-06-09",
+      "customer": "Lizeth",
+      "product": "I-601A",
+      "service": "I-601A Waiver",
+      "finder": "Fernando",
+      "closer": "Tony",
+      "amount": 1300.0,
+      "paidStatus": "Pending",
+      "isPaid": false
+    },
+    {
+      "date": "2026-06-09",
+      "customer": "Gabriel",
+      "product": "NVC",
+      "service": "NVC Processing",
+      "finder": "Hector",
+      "closer": "Laura",
+      "amount": 300.0,
+      "paidStatus": "Pending",
+      "isPaid": false
+    },
+    {
+      "date": "2026-06-09",
+      "customer": "Pedro Llena",
+      "product": "NVC",
+      "service": "NVC Processing",
+      "finder": "Hector",
+      "closer": "Laura",
+      "amount": 200.0,
+      "paidStatus": "Pending",
+      "isPaid": false
+    },
+    {
+      "date": "2026-06-09",
+      "customer": "Elvis",
+      "product": "NVC",
+      "service": "NVC Processing",
+      "finder": "David",
+      "closer": "Laura",
+      "amount": 200.0,
+      "paidStatus": "Pending",
+      "isPaid": false
+    },
+    {
+      "date": "2026-06-09",
+      "customer": "Elvis",
+      "product": "CRBA",
+      "service": "CRBA",
+      "finder": "David",
+      "closer": "Jessica",
+      "amount": 200.0,
+      "paidStatus": "Pending",
+      "isPaid": false
+    },
+    {
+      "date": "2026-06-10",
+      "customer": "Samantha",
+      "product": "All at Once",
+      "service": "All at Once Bundle",
+      "finder": "David",
+      "closer": "Laura",
+      "amount": 1500.0,
+      "paidStatus": "Pending",
+      "isPaid": false
+    },
+    {
+      "date": "2026-06-10",
+      "customer": "Ernesto",
+      "product": "NVC",
+      "service": "NVC Processing",
+      "finder": "Hector",
+      "closer": "Laura",
+      "amount": 200.0,
+      "paidStatus": "Pending",
+      "isPaid": false
+    },
+    {
+      "date": "2026-06-10",
+      "customer": "Maria",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "David",
+      "closer": "David",
+      "amount": 400.0,
+      "paidStatus": "Pending",
+      "isPaid": false
+    },
+    {
+      "date": "2026-06-10",
+      "customer": "Samantha",
+      "product": "All at Once",
+      "service": "All at Once Bundle",
+      "finder": "David",
+      "closer": "Laura",
+      "amount": 1500.0,
+      "paidStatus": "Pending",
+      "isPaid": false
+    },
+    {
+      "date": "2026-06-10",
+      "customer": "Ernesto",
+      "product": "NVC",
+      "service": "NVC Processing",
+      "finder": "Hector",
+      "closer": "Laura",
+      "amount": 200.0,
+      "paidStatus": "Pending",
+      "isPaid": false
+    },
+    {
+      "date": "2026-06-10",
+      "customer": "Maria",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "David",
+      "closer": "David",
+      "amount": 400.0,
+      "paidStatus": "Pending",
+      "isPaid": false
+    },
+    {
       "date": "2026-06-10",
       "customer": "Samantha",
       "product": "All at Once",
@@ -5348,6 +6228,28 @@
       "isPaid": false
     },
     {
+      "date": "2026-06-12",
+      "customer": "Eloisa Ruiz",
+      "product": "I-90/912",
+      "service": "I-90 Green Card Renewal",
+      "finder": "David",
+      "closer": "Hector",
+      "amount": 100.0,
+      "paidStatus": "Pending",
+      "isPaid": false
+    },
+    {
+      "date": "2026-06-12",
+      "customer": "Eloisa Ruiz",
+      "product": "I-90/912",
+      "service": "I-90 Green Card Renewal",
+      "finder": "David",
+      "closer": "Hector",
+      "amount": 100.0,
+      "paidStatus": "Pending",
+      "isPaid": false
+    },
+    {
       "date": "2026-06-18",
       "customer": "Celestino",
       "product": "I-751",
@@ -5355,6 +6257,61 @@
       "finder": "Hector",
       "closer": "Hector",
       "amount": 200.0,
+      "paidStatus": "Pending",
+      "isPaid": false
+    },
+    {
+      "date": "2026-06-18",
+      "customer": "Celestino",
+      "product": "I-751",
+      "service": "I-751 Removal of Conditions",
+      "finder": "Hector",
+      "closer": "Hector",
+      "amount": 200.0,
+      "paidStatus": "Pending",
+      "isPaid": false
+    },
+    {
+      "date": "2026-06-18",
+      "customer": "Celestino",
+      "product": "I-751",
+      "service": "I-751 Removal of Conditions",
+      "finder": "Hector",
+      "closer": "Hector",
+      "amount": 200.0,
+      "paidStatus": "Pending",
+      "isPaid": false
+    },
+    {
+      "date": "2026-07-18",
+      "customer": "Celestino",
+      "product": "I-751",
+      "service": "I-751 Removal of Conditions",
+      "finder": "Hector",
+      "closer": "Hector",
+      "amount": 200.0,
+      "paidStatus": "Pending",
+      "isPaid": false
+    },
+    {
+      "date": "2026-08-18",
+      "customer": "Celestino",
+      "product": "I-751",
+      "service": "I-751 Removal of Conditions",
+      "finder": "Hector",
+      "closer": "Hector",
+      "amount": 200.0,
+      "paidStatus": "Pending",
+      "isPaid": false
+    },
+    {
+      "date": "2026-09-18",
+      "customer": "Celestino",
+      "product": "I-751",
+      "service": "I-751 Removal of Conditions",
+      "finder": "Hector",
+      "closer": "Hector",
+      "amount": 100.0,
       "paidStatus": "Pending",
       "isPaid": false
     }
