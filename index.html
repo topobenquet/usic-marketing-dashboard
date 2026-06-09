@@ -145,8 +145,9 @@ function fillDateRange(obj, defaultVal) {
 }
 
 /* ── WINDSOR FETCH ── */
-async function windsorFetch(connector, accountId, fields) {
-  const params=new URLSearchParams({ api_key:WINDSOR_KEY, date_from:dateConfig.from, date_to:dateConfig.to, fields:fields.join(','), account_id:accountId });
+async function windsorFetch(connector, accountId, fields, from, to) {
+  const f=from||dateConfig.from, t=to||dateConfig.to;
+  const params=new URLSearchParams({ api_key:WINDSOR_KEY, date_from:f, date_to:t, fields:fields.join(','), account_id:accountId });
   const res=await fetch(`${BASE}/${connector}?${params}`);
   if(!res.ok) throw new Error(`Windsor ${connector} HTTP ${res.status}`);
   const json=await res.json();
@@ -173,20 +174,26 @@ async function fetchAll() {
     check();
   });
   setMsg('Loading data…');
-  const [ghlR, gadsR, ga4R, kwR, salesR] = await Promise.allSettled([
+  // Fixed 12-week window for Weekly KPIs section (always latest 84 days)
+  const wkFrom = daysAgo(84), wkTo = yesterday();
+  const [ghlR, gadsR, ga4R, kwR, salesR, ghlWkR, gadsWkR] = await Promise.allSettled([
     windsorFetch('gohighlevel', GHL_ACC,  ['contact_date_added','contact_source','contact_id']),
     windsorFetch('google_ads',  GADS_ACC, ['date','campaign','spend','clicks','impressions','conversions','ctr','cpc','account_id']),
     windsorFetch('googleanalytics4', GA4_ACC, ['date','sessions','users','session_default_channel_group','country']),
     windsorFetch('google_ads',  GADS_ACC, ['keyword','match_type','clicks','impressions','ctr','cpc','conversions','spend','account_id']),
-    fetchSalesData()
+    fetchSalesData(),
+    windsorFetch('gohighlevel', GHL_ACC,  ['contact_date_added','contact_source','contact_id'], wkFrom, wkTo),
+    windsorFetch('google_ads',  GADS_ACC, ['date','spend','account_id'], wkFrom, wkTo)
   ]);
   const filterGAds = rows => rows.filter(r => !r.account_id || r.account_id===GADS_ACC);
   return {
-    ghl:      ghlR.status==='fulfilled'  ? ghlR.value                : [],
-    gads:     gadsR.status==='fulfilled' ? filterGAds(gadsR.value)   : [],
-    ga4:      ga4R.status==='fulfilled'  ? ga4R.value                : [],
-    keywords: kwR.status==='fulfilled'   ? filterGAds(kwR.value)     : [],
-    salesData: salesR.status==='fulfilled' ? salesR.value            : { transactions:[], lastUpdated:'—', source:'error' }
+    ghl:        ghlR.status==='fulfilled'    ? ghlR.value                 : [],
+    gads:       gadsR.status==='fulfilled'   ? filterGAds(gadsR.value)    : [],
+    ga4:        ga4R.status==='fulfilled'    ? ga4R.value                 : [],
+    keywords:   kwR.status==='fulfilled'     ? filterGAds(kwR.value)      : [],
+    salesData:  salesR.status==='fulfilled'  ? salesR.value               : { transactions:[], lastUpdated:'—', source:'error' },
+    ghlWeekly:  ghlWkR.status==='fulfilled'  ? ghlWkR.value               : [],
+    gadsWeekly: gadsWkR.status==='fulfilled' ? filterGAds(gadsWkR.value)  : []
   };
 }
 
@@ -295,6 +302,52 @@ function processSales(transactions, from, to) {
   return {daily, byService, byFinder, byCloser, totalRevenue, totalDeals, totalPending, pendingDeals, avgDeal};
 }
 
+/* ── WEEKLY KPIs ── */
+function getWeeks(n) {
+  const weeks=[];
+  const now=new Date();
+  const dow=now.getDay(); // 0=Sun
+  const toMon=dow===0?-6:1-dow;
+  const thisMon=new Date(now);
+  thisMon.setDate(now.getDate()+toMon);
+  thisMon.setHours(0,0,0,0);
+  for(let w=0;w<n;w++){
+    const mon=new Date(thisMon); mon.setDate(thisMon.getDate()-(7*w));
+    const sun=new Date(mon); sun.setDate(mon.getDate()+6);
+    const from=toISO(mon), to=toISO(sun);
+    const lbl=mon.toLocaleDateString('en-US',{month:'short',day:'numeric'})+' – '+sun.toLocaleDateString('en-US',{month:'short',day:'numeric'});
+    weeks.push({from,to,label:lbl});
+  }
+  return weeks.reverse(); // oldest → newest
+}
+
+function processWeeklyKPIs(ghlWeeklyRows, gadsWeeklyRows, allTransactions) {
+  const weeks=getWeeks(12);
+  // GHL: apply bulk-import filter, get daily totals
+  const ghlProc=processGHL(ghlWeeklyRows);
+  // GAds: get daily spend
+  const gadsProc=processGAds(gadsWeeklyRows);
+
+  return weeks.map(w=>{
+    let leads=0, spend=0;
+    const cur=new Date(w.from), end=new Date(w.to);
+    while(cur<=end){
+      const d=toISO(cur);
+      const dl=ghlProc.daily[d]||{call:0,form:0,unknown:0};
+      leads+=dl.call+dl.form+dl.unknown;
+      spend+=gadsProc.daily[d]?.spend||0;
+      cur.setDate(cur.getDate()+1);
+    }
+    const weekTxns=allTransactions.filter(t=>t.isPaid&&t.date>=w.from&&t.date<=w.to);
+    const revenue=weekTxns.reduce((s,t)=>s+t.amount,0);
+    const deals=weekTxns.length;
+    const cpl=(leads>0&&spend>0)?spend/leads:null;
+    const cps=(deals>0&&spend>0)?spend/deals:null;
+    const roas=spend>0?revenue/spend:null;
+    return {...w,leads,spend,revenue,deals,cpl,cps,roas};
+  }).reverse(); // newest first for the table
+}
+
 function categorizeService(p) {
   if (!p) return 'Other';
   const s=p.toLowerCase();
@@ -362,12 +415,13 @@ function makeInsights(ghl, gads, ga4, sales, avgRoas) {
 }
 
 /* ── RENDER ── */
-function renderApp(ghlR, gadsR, ga4R, kwR, salesData) {
+function renderApp(ghlR, gadsR, ga4R, kwR, salesData, ghlWeeklyR, gadsWeeklyR) {
   const ghl   = processGHL(ghlR);
   const gads  = processGAds(gadsR);
   const ga4   = processGA4(ga4R);
   const kws   = processKeywords(kwR);
   const sales = processSales(salesData.transactions||[], dateConfig.from, dateConfig.to);
+  const weeklyKPIs = processWeeklyKPIs(ghlWeeklyR||[], gadsWeeklyR||[], salesData.transactions||[]);
   const now   = new Date().toLocaleString('en-US',{dateStyle:'medium',timeStyle:'short'});
 
   // Filled date arrays
@@ -449,6 +503,44 @@ function renderApp(ghlR, gadsR, ga4R, kwR, salesData) {
     </div>
     <span class="date-range-display">📅 ${dateLabel()}</span>
   </div>
+
+  <!-- ── WEEKLY KPIs ── -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-dot" style="background:#58a6ff"></div>
+      <div class="section-title">📅 Weekly KPIs <span style="font-size:12px;font-weight:400;color:var(--muted);margin-left:8px">last 12 weeks · newest first</span></div>
+    </div>
+    <div style="overflow-x:auto">
+      <table class="data-table" style="min-width:700px">
+        <thead><tr>
+          <th>Week</th>
+          <th style="text-align:right">Sales $</th>
+          <th style="text-align:right">Deals</th>
+          <th style="text-align:right">Leads</th>
+          <th style="text-align:right">Ad Spend</th>
+          <th style="text-align:right">Cost/Lead</th>
+          <th style="text-align:right">Cost/Sale</th>
+          <th style="text-align:right">ROAS</th>
+        </tr></thead>
+        <tbody>
+          ${weeklyKPIs.map(w=>{
+            const rStyle=w.roas===null?'':w.roas>=5?'color:var(--green)':w.roas>=2?'color:var(--yellow)':'color:var(--red)';
+            return `<tr>
+              <td style="white-space:nowrap">${w.label}</td>
+              <td style="text-align:right" class="c-green">${w.revenue>0?fmt.$(w.revenue):'—'}</td>
+              <td style="text-align:right">${w.deals||'—'}</td>
+              <td style="text-align:right">${w.leads||'—'}</td>
+              <td style="text-align:right">${w.spend>0?fmt.$(w.spend):'—'}</td>
+              <td style="text-align:right">${w.cpl!==null?fmt.$2(w.cpl):'—'}</td>
+              <td style="text-align:right">${w.cps!==null?fmt.$2(w.cps):'—'}</td>
+              <td style="text-align:right;${rStyle}">${w.roas!==null?fmt.x(w.roas):'—'}</td>
+            </tr>`;
+          }).join('')}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <hr class="divider">
 
   <!-- ── SALES & ROAS ── -->
   <div class="section">
@@ -688,8 +780,8 @@ async function reload() {
   destroyCharts();
   document.getElementById('app').innerHTML=`<div class="center-box"><div class="spinner"></div><div class="loading-label" id="load-msg">Loading…</div></div>`;
   try {
-    const {ghl,gads,ga4,keywords,salesData}=await fetchAll();
-    renderApp(ghl,gads,ga4,keywords,salesData);
+    const {ghl,gads,ga4,keywords,salesData,ghlWeekly,gadsWeekly}=await fetchAll();
+    renderApp(ghl,gads,ga4,keywords,salesData,ghlWeekly,gadsWeekly);
   } catch(e) {
     document.getElementById('app').innerHTML=`<div class="center-box"><div class="error-box">❌ Error: <strong>${e.message}</strong></div><button class="btn" onclick="reload()" style="margin-top:16px">↻ Retry</button></div>`;
   }
