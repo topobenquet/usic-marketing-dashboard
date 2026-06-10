@@ -66,6 +66,10 @@ tbody td { padding:7px 10px; border-bottom:1px solid #21262d; text-align:right; 
 tbody td:first-child { text-align:left; color:#f0f6fc; max-width:200px; overflow:hidden; text-overflow:ellipsis; }
 tbody tr:last-child td { border-bottom:none; }
 tbody tr:hover td { background:#1c2128; }
+thead th.sortable { cursor:pointer; user-select:none; }
+thead th.sortable:hover { color:#e6edf3; background:#1c2128; }
+thead th.sort-desc::after { content:" ↓"; color:#58a6ff; }
+thead th.sort-asc::after  { content:" ↑"; color:#58a6ff; }
 
 .roas-pill { display:inline-block; padding:1px 7px; border-radius:8px; font-size:10px; font-weight:700; }
 .roas-low  { background:#f8514922; color:#f85149; }
@@ -682,6 +686,8 @@ function renderApp(ghlR, gadsR, ga4R, kwR, salesData, ghlWeeklyR, gadsWeeklyR) {
     </div>
   </div>`;
 
+  makeAllTablesSortable();
+
   /* ── CHARTS ── */
   const C={blue:'#58a6ff',green:'#3fb950',purple:'#d2a8ff',yellow:'#e3b341',red:'#f85149',teal:'#39d353',orange:'#f0883e',pink:'#ff7b72',cyan:'#79c0ff'};
   const PAL=[C.blue,C.green,C.purple,C.yellow,C.orange,C.teal,C.red,C.pink,C.cyan];
@@ -748,6 +754,46 @@ function renderApp(ghlR, gadsR, ga4R, kwR, salesData, ghlWeeklyR, gadsWeeklyR) {
   if(ga4Dates.length){
     CHARTS['ga4-d']=new Chart(document.getElementById('c-ga4-daily'),{type:'line',data:{labels:ga4Dates.map(d=>d.slice(5)),datasets:[{label:'Sessions',data:ga4Dates.map(d=>ga4DailyFull[d]||0),borderColor:C.yellow,backgroundColor:C.yellow+'22',borderWidth:2,pointRadius:2,tension:0.35,fill:true}]},options:{...OPTS,plugins:{legend:{display:false}},scales:{x:{grid:{color:'#21262d'},ticks:{maxRotation:45}},y:{grid:{color:'#21262d'}}}}});
   }
+}
+
+
+/* ── TABLE SORTING ── */
+function parseCell(cell) {
+  let t = cell.textContent.trim().replace(/[$,]/g, '');
+  if (t === '—' || t === '') return null;
+  t = t.replace(/%$/, '').replace(/x$/, '');
+  const n = parseFloat(t);
+  return isNaN(n) ? t.toLowerCase() : n;
+}
+
+function makeTableSortable(table) {
+  const ths = table.querySelectorAll('thead th');
+  ths.forEach((th, ci) => {
+    th.classList.add('sortable');
+    let descending = true;
+    th.addEventListener('click', () => {
+      ths.forEach(t => t.classList.remove('sort-asc', 'sort-desc'));
+      th.classList.add(descending ? 'sort-desc' : 'sort-asc');
+      const tbody = table.querySelector('tbody');
+      if (!tbody) return;
+      const rows = Array.from(tbody.querySelectorAll('tr'));
+      rows.sort((a, b) => {
+        const av = parseCell(a.cells[ci]);
+        const bv = parseCell(b.cells[ci]);
+        if (av === null) return 1;
+        if (bv === null) return -1;
+        if (typeof av === 'string' && typeof bv === 'string')
+          return descending ? bv.localeCompare(av) : av.localeCompare(bv);
+        return descending ? bv - av : av - bv;
+      });
+      rows.forEach(r => tbody.appendChild(r));
+      descending = !descending;
+    });
+  });
+}
+
+function makeAllTablesSortable() {
+  document.querySelectorAll('table').forEach(t => makeTableSortable(t));
 }
 
 /* ── DATE CONTROLS ── */
