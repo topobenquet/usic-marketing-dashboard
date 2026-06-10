@@ -531,7 +531,7 @@ function renderApp(ghlR, gadsR, ga4R, kwR, salesData, ghlWeeklyR, gadsWeeklyR) {
           ${weeklyKPIs.map(w=>{
             const rStyle=w.roas===null?'':w.roas>=5?'color:var(--green)':w.roas>=2?'color:var(--yellow)':'color:var(--red)';
             return `<tr>
-              <td style="white-space:nowrap">${w.label}</td>
+              <td style="white-space:nowrap" data-sort="${w.from}">${w.label}</td>
               <td style="text-align:right" class="c-green">${w.revenue>0?fmt.$(w.revenue):'—'}</td>
               <td style="text-align:right">${w.deals||'—'}</td>
               <td style="text-align:right">${w.leads||'—'}</td>
@@ -760,6 +760,7 @@ function renderApp(ghlR, gadsR, ga4R, kwR, salesData, ghlWeeklyR, gadsWeeklyR) {
 
 /* ── TABLE SORTING ── */
 function parseCell(cell) {
+  if (cell.dataset && cell.dataset.sort) return cell.dataset.sort;
   let t = cell.textContent.trim().replace(/[$,]/g, '');
   if (t === '—' || t === '') return null;
   t = t.replace(/%$/, '').replace(/x$/, '');
