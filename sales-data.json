@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09",
+  "lastUpdated": "2026-06-10",
   "transactions": [
     {
       "date": "2026-01-01",
@@ -5404,25 +5404,14 @@
     },
     {
       "date": "2026-06-09",
-      "customer": "Lizeth",
-      "product": "I-601A",
-      "service": "I-601A Waiver",
-      "finder": "Fernando",
-      "closer": "Tony",
-      "amount": 1300.0,
-      "paidStatus": "Pending",
-      "isPaid": false
-    },
-    {
-      "date": "2026-06-09",
-      "customer": "Gabriel",
+      "customer": "Ernesto",
       "product": "NVC",
       "service": "NVC Processing",
       "finder": "Hector",
-      "closer": "Laura",
-      "amount": 300.0,
-      "paidStatus": "Pending",
-      "isPaid": false
+      "closer": "Jessica",
+      "amount": 500.0,
+      "paidStatus": "Paid",
+      "isPaid": true
     },
     {
       "date": "2026-06-09",
@@ -5431,64 +5420,20 @@
       "service": "NVC Processing",
       "finder": "Hector",
       "closer": "Laura",
-      "amount": 200.0,
-      "paidStatus": "Pending",
-      "isPaid": false
+      "amount": 100.0,
+      "paidStatus": "Paid",
+      "isPaid": true
     },
     {
       "date": "2026-06-09",
-      "customer": "Elvis",
-      "product": "NVC",
-      "service": "NVC Processing",
-      "finder": "David",
-      "closer": "Laura",
-      "amount": 200.0,
-      "paidStatus": "Pending",
-      "isPaid": false
-    },
-    {
-      "date": "2026-06-09",
-      "customer": "Elvis",
-      "product": "CRBA",
-      "service": "CRBA",
-      "finder": "David",
-      "closer": "Jessica",
-      "amount": 200.0,
-      "paidStatus": "Pending",
-      "isPaid": false
-    },
-    {
-      "date": "2026-06-10",
-      "customer": "Samantha",
-      "product": "All at Once",
-      "service": "All at Once Bundle",
-      "finder": "David",
-      "closer": "Laura",
-      "amount": 1500.0,
-      "paidStatus": "Pending",
-      "isPaid": false
-    },
-    {
-      "date": "2026-06-10",
-      "customer": "Ernesto",
-      "product": "NVC",
-      "service": "NVC Processing",
-      "finder": "Hector",
-      "closer": "Laura",
-      "amount": 200.0,
-      "paidStatus": "Pending",
-      "isPaid": false
-    },
-    {
-      "date": "2026-06-10",
-      "customer": "Maria",
+      "customer": "Angelica Iribe",
       "product": "N-400",
       "service": "N-400 Citizenship",
-      "finder": "David",
-      "closer": "David",
-      "amount": 400.0,
-      "paidStatus": "Pending",
-      "isPaid": false
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true
     },
     {
       "date": "2026-06-12",
@@ -5509,6 +5454,17 @@
       "finder": "Hector",
       "closer": "Hector",
       "amount": 200.0,
+      "paidStatus": "Pending",
+      "isPaid": false
+    },
+    {
+      "date": "2026-06-29",
+      "customer": "Janette for Petra",
+      "product": "All at Once",
+      "service": "All at Once Bundle",
+      "finder": "Hector",
+      "closer": "Laura",
+      "amount": 1500.0,
       "paidStatus": "Pending",
       "isPaid": false
     },
