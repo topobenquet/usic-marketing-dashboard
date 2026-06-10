@@ -389,6 +389,7 @@ function roasPill(roas) {
 const fmt = {
   $:   v => '$'+Number(v).toLocaleString('en-US',{maximumFractionDigits:0}),
   $2:  v => '$'+Number(v).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}),
+  $1:  v => '$'+Number(v).toLocaleString('en-US',{minimumFractionDigits:1,maximumFractionDigits:1}),
   n:   (v,d=0) => Number(v).toLocaleString('en-US',{minimumFractionDigits:d,maximumFractionDigits:d}),
   pct: v => (v*100).toFixed(1)+'%',
   pct0:v => (v*100).toFixed(0)+'%',
@@ -412,7 +413,7 @@ function makeInsights(ghl, gads, ga4, sales, avgRoas) {
   }
   const topCloser=Object.entries(sales.byCloser).sort((a,b)=>b[1].revenue-a[1].revenue)[0];
   if(topCloser) out.push({icon:'🤝',text:`Top closer: <strong>${topCloser[0]}</strong> — ${fmt.$(topCloser[1].revenue)} across ${topCloser[1].deals} deals.`});
-  if (gads.conv>0) out.push({icon:'📊',text:`Google Ads: <strong>${fmt.n(gads.conv,0)} conversions</strong> · CPA ${fmt.$2(gads.cpa)} · Spend ${fmt.$(gads.spend)} · CTR ${fmt.pct(gads.ctr)}.`});
+  if (gads.conv>0) out.push({icon:'📊',text:`Google Ads: <strong>${fmt.n(gads.conv,0)} conversions</strong> · CPA ${fmt.$1(gads.cpa)} · Spend ${fmt.$(gads.spend)} · CTR ${fmt.pct(gads.ctr)}.`});
   if (ghl.total>0){const cp=(ghl.calls/ghl.total*100).toFixed(0);out.push({icon:'📞',text:`GHL: <strong>${ghl.total} leads</strong> — ${ghl.calls} calls (${cp}%) · ${ghl.forms} form submissions.`});}
   if (out.length===0) out.push({icon:'ℹ️',text:'No data available for the selected date range.'});
   return out;
@@ -449,12 +450,12 @@ function renderApp(ghlR, gadsR, ga4R, kwR, salesData, ghlWeeklyR, gadsWeeklyR) {
   // Tables
   const campRows=Object.entries(gads.campaigns).sort((a,b)=>b[1].spend-a[1].spend).map(([name,m])=>{
     const ctr=m.impr>0?m.clicks/m.impr:0,cpc=m.clicks>0?m.spend/m.clicks:0,cpa=m.conv>0?m.spend/m.conv:0;
-    return `<tr><td>${name}</td><td>${fmt.$(m.spend)}</td><td>${fmt.n(m.clicks)}</td><td>${fmt.n(m.impr)}</td><td>${fmt.pct(ctr)}</td><td>${fmt.$2(cpc)}</td><td>${fmt.n(m.conv,1)}</td><td>${fmt.$2(cpa)}</td></tr>`;
+    return `<tr><td>${name}</td><td>${fmt.$(m.spend)}</td><td>${fmt.n(m.clicks)}</td><td>${fmt.n(m.impr)}</td><td>${fmt.pct(ctr)}</td><td>${fmt.$1(cpc)}</td><td>${fmt.n(m.conv,0)}</td><td>${fmt.$1(cpa)}</td></tr>`;
   }).join('');
 
   const kwRows=kws.slice(0,10).map(([kw,m])=>{
     const ctr=m.impr>0?m.clicks/m.impr:0,cpa=m.conv>0?m.spend/m.conv:0;
-    return `<tr><td><span class="kw-badge">${m.matchType||'—'}</span> ${kw}</td><td>${fmt.n(m.clicks)}</td><td>${fmt.pct(ctr)}</td><td>${fmt.$(m.spend)}</td><td>${fmt.n(m.conv,1)}</td><td>${fmt.$2(cpa)}</td></tr>`;
+    return `<tr><td><span class="kw-badge">${m.matchType||'—'}</span> ${kw}</td><td>${fmt.n(m.clicks)}</td><td>${fmt.pct(ctr)}</td><td>${fmt.$(m.spend)}</td><td>${fmt.n(m.conv,0)}</td><td>${fmt.$1(cpa)}</td></tr>`;
   }).join('');
 
   const svcRows=Object.entries(sales.byService).sort((a,b)=>b[1].revenue-a[1].revenue).map(([svc,m])=>{
@@ -558,7 +559,7 @@ function renderApp(ghlR, gadsR, ga4R, kwR, salesData, ghlWeeklyR, gadsWeeklyR) {
       <div class="kpi"><div class="kpi-label">Avg. Deal Size</div><div class="kpi-val c-blue">${fmt.$(sales.avgDeal)}</div><div class="kpi-sub">Paid deals</div></div>
       <div class="kpi"><div class="kpi-label">Pipeline</div><div class="kpi-val c-yellow">${fmt.$(sales.totalPending)}</div><div class="kpi-sub">${sales.pendingDeals} pending deals</div></div>
       <div class="kpi"><div class="kpi-label">Ad Spend</div><div class="kpi-val c-red">${fmt.$(gads.spend)}</div><div class="kpi-sub">Google Ads</div></div>
-      <div class="kpi"><div class="kpi-label">Ad Conversions</div><div class="kpi-val">${fmt.n(gads.conv,0)}</div><div class="kpi-sub">CPA ${fmt.$2(gads.cpa)}</div></div>
+      <div class="kpi"><div class="kpi-label">Ad Conversions</div><div class="kpi-val">${fmt.n(gads.conv,0)}</div><div class="kpi-sub">CPA ${fmt.$1(gads.cpa)}</div></div>
     </div>
     <div class="chart-row" style="grid-template-columns:1fr">
       <div class="chart-card">
@@ -637,8 +638,8 @@ function renderApp(ghlR, gadsR, ga4R, kwR, salesData, ghlWeeklyR, gadsWeeklyR) {
       <div class="kpi"><div class="kpi-label">🖱️ Clicks</div><div class="kpi-val c-blue">${fmt.n(gads.clicks)}</div><div class="kpi-sub">CTR ${fmt.pct(gads.ctr)}</div></div>
       <div class="kpi"><div class="kpi-label">👁️ Impressions</div><div class="kpi-val">${fmt.n(gads.impr)}</div><div class="kpi-sub">Total reach</div></div>
       <div class="kpi"><div class="kpi-label">✅ Conversions</div><div class="kpi-val c-green">${fmt.n(gads.conv,0)}</div><div class="kpi-sub">Total period</div></div>
-      <div class="kpi"><div class="kpi-label">💵 Avg. CPC</div><div class="kpi-val">${fmt.$2(gads.cpc)}</div><div class="kpi-sub">Per click</div></div>
-      <div class="kpi"><div class="kpi-label">🎯 CPA</div><div class="kpi-val c-yellow">${fmt.$2(gads.cpa)}</div><div class="kpi-sub">Per conversion</div></div>
+      <div class="kpi"><div class="kpi-label">💵 Avg. CPC</div><div class="kpi-val">${fmt.$1(gads.cpc)}</div><div class="kpi-sub">Per click</div></div>
+      <div class="kpi"><div class="kpi-label">🎯 CPA</div><div class="kpi-val c-yellow">${fmt.$1(gads.cpa)}</div><div class="kpi-sub">Per conversion</div></div>
     </div>
     <div class="chart-row chart-2">
       <div class="chart-card"><div class="chart-card-title">Daily Spend + Conversions</div><div class="chart-wrap"><canvas id="c-gads-daily"></canvas></div></div>
