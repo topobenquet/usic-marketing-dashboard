@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10",
+  "lastUpdated": "2026-07-14",
   "transactions": [
     {
       "date": "2026-01-01",
@@ -10,7 +10,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-02",
@@ -21,7 +22,8 @@
       "closer": "David",
       "amount": 400.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-02",
@@ -32,7 +34,8 @@
       "closer": "David",
       "amount": 500.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-02",
@@ -43,7 +46,8 @@
       "closer": "David",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-02",
@@ -54,7 +58,8 @@
       "closer": "Caro",
       "amount": 150.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-02",
@@ -65,7 +70,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-02",
@@ -76,7 +82,8 @@
       "closer": "Laura",
       "amount": 190.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-02",
@@ -87,7 +94,8 @@
       "closer": "Laura",
       "amount": 60.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-03",
@@ -98,7 +106,8 @@
       "closer": "Laura",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-03",
@@ -109,7 +118,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-05",
@@ -120,7 +130,8 @@
       "closer": "Laura",
       "amount": 190.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-05",
@@ -131,7 +142,8 @@
       "closer": "Hector",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-05",
@@ -142,7 +154,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-06",
@@ -153,7 +166,8 @@
       "closer": "David",
       "amount": 400.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-06",
@@ -164,7 +178,8 @@
       "closer": "David",
       "amount": 100.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-06",
@@ -175,7 +190,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-06",
@@ -186,7 +202,8 @@
       "closer": "Jessica",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-07",
@@ -197,7 +214,8 @@
       "closer": "David",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-07",
@@ -208,7 +226,8 @@
       "closer": "Jessica",
       "amount": 1000.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-07",
@@ -219,7 +238,8 @@
       "closer": "David",
       "amount": 350.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-07",
@@ -230,7 +250,8 @@
       "closer": "Fernando",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-07",
@@ -241,7 +262,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-07",
@@ -252,7 +274,8 @@
       "closer": "Jessica",
       "amount": 1000.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-08",
@@ -263,7 +286,8 @@
       "closer": "Laura",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-08",
@@ -274,7 +298,8 @@
       "closer": "Caro",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-08",
@@ -285,7 +310,8 @@
       "closer": "Jessica",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-08",
@@ -296,7 +322,8 @@
       "closer": "Caro",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-09",
@@ -307,7 +334,8 @@
       "closer": "Laura",
       "amount": 400.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-09",
@@ -318,7 +346,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-09",
@@ -329,7 +358,8 @@
       "closer": "Caro",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-09",
@@ -340,7 +370,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-09",
@@ -351,7 +382,8 @@
       "closer": "Jessica",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-09",
@@ -362,7 +394,8 @@
       "closer": "Jessica",
       "amount": 450.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-12",
@@ -373,7 +406,8 @@
       "closer": "David",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-12",
@@ -384,7 +418,8 @@
       "closer": "Caro",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-12",
@@ -395,7 +430,8 @@
       "closer": "Laura",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-12",
@@ -406,7 +442,8 @@
       "closer": "Caro",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-12",
@@ -417,7 +454,8 @@
       "closer": "Fernando",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-12",
@@ -428,7 +466,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-12",
@@ -439,7 +478,8 @@
       "closer": "David",
       "amount": 350.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-13",
@@ -450,7 +490,8 @@
       "closer": "Laura",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-13",
@@ -461,7 +502,8 @@
       "closer": "Laura",
       "amount": 700.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-13",
@@ -472,7 +514,8 @@
       "closer": "Laura",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-14",
@@ -483,7 +526,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-14",
@@ -494,7 +538,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-14",
@@ -505,7 +550,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-14",
@@ -516,7 +562,8 @@
       "closer": "Laura",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-14",
@@ -527,7 +574,8 @@
       "closer": "Laura",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-15",
@@ -538,7 +586,8 @@
       "closer": "Caro",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-15",
@@ -549,7 +598,8 @@
       "closer": "Laura",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-15",
@@ -560,7 +610,8 @@
       "closer": "Laura",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-15",
@@ -571,7 +622,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-16",
@@ -582,7 +634,8 @@
       "closer": "Tony",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-16",
@@ -593,7 +646,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-16",
@@ -604,7 +658,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-16",
@@ -615,7 +670,8 @@
       "closer": "Caro",
       "amount": 220.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-16",
@@ -626,7 +682,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-16",
@@ -637,7 +694,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-16",
@@ -648,7 +706,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-17",
@@ -659,7 +718,8 @@
       "closer": "Laura",
       "amount": 1000.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-19",
@@ -670,7 +730,8 @@
       "closer": "David",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-20",
@@ -681,7 +742,8 @@
       "closer": "David",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-20",
@@ -692,7 +754,8 @@
       "closer": "Jessica",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-21",
@@ -703,7 +766,8 @@
       "closer": "Laura",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-22",
@@ -714,7 +778,8 @@
       "closer": "David",
       "amount": 850.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-22",
@@ -725,7 +790,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-22",
@@ -736,7 +802,8 @@
       "closer": "Hector",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-22",
@@ -747,7 +814,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-23",
@@ -758,7 +826,8 @@
       "closer": "Tony",
       "amount": 1500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-23",
@@ -769,7 +838,8 @@
       "closer": "Jessica",
       "amount": 2000.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-23",
@@ -780,7 +850,8 @@
       "closer": "Laura",
       "amount": 200.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-26",
@@ -791,7 +862,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-26",
@@ -802,7 +874,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-26",
@@ -813,7 +886,8 @@
       "closer": "Fernando",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-26",
@@ -824,7 +898,8 @@
       "closer": "Laura",
       "amount": 450.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-27",
@@ -835,7 +910,8 @@
       "closer": "Caro",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-27",
@@ -846,7 +922,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-27",
@@ -857,7 +934,8 @@
       "closer": "Jessica",
       "amount": 3000.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-27",
@@ -868,7 +946,8 @@
       "closer": "Hector",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-27",
@@ -879,7 +958,8 @@
       "closer": "David",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-27",
@@ -890,7 +970,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-27",
@@ -901,7 +982,8 @@
       "closer": "David",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-28",
@@ -912,7 +994,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-28",
@@ -923,7 +1006,8 @@
       "closer": "David",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-28",
@@ -934,7 +1018,8 @@
       "closer": "David",
       "amount": 350.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-28",
@@ -945,7 +1030,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-28",
@@ -956,7 +1042,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-29",
@@ -967,7 +1054,8 @@
       "closer": "Laura",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-29",
@@ -978,7 +1066,8 @@
       "closer": "David",
       "amount": 250.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-29",
@@ -989,7 +1078,8 @@
       "closer": "Hector",
       "amount": 400.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-29",
@@ -1000,7 +1090,8 @@
       "closer": "Fernando",
       "amount": 350.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-29",
@@ -1011,7 +1102,8 @@
       "closer": "Fernando",
       "amount": 400.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-30",
@@ -1022,7 +1114,8 @@
       "closer": "Laura",
       "amount": 1200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-30",
@@ -1033,7 +1126,8 @@
       "closer": "Laura",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-01-30",
@@ -1044,7 +1138,8 @@
       "closer": "Laura",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-02",
@@ -1055,7 +1150,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-02",
@@ -1066,7 +1162,8 @@
       "closer": "Tony",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-02",
@@ -1077,7 +1174,8 @@
       "closer": "David",
       "amount": 250.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-03",
@@ -1088,7 +1186,8 @@
       "closer": "Caro",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-03",
@@ -1099,7 +1198,8 @@
       "closer": "David",
       "amount": 250.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-03",
@@ -1110,7 +1210,8 @@
       "closer": "Laura",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-04",
@@ -1121,7 +1222,8 @@
       "closer": "Caro",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-04",
@@ -1132,7 +1234,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-04",
@@ -1143,7 +1246,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-04",
@@ -1154,7 +1258,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-05",
@@ -1165,7 +1270,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-05",
@@ -1176,7 +1282,8 @@
       "closer": "Hector",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-05",
@@ -1187,7 +1294,8 @@
       "closer": "David",
       "amount": 350.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-05",
@@ -1198,7 +1306,8 @@
       "closer": "Laura",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-06",
@@ -1209,7 +1318,8 @@
       "closer": "Valentina",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-06",
@@ -1220,7 +1330,8 @@
       "closer": "David",
       "amount": 350.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-06",
@@ -1231,7 +1342,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-07",
@@ -1242,7 +1354,8 @@
       "closer": "Fernando",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-09",
@@ -1253,7 +1366,8 @@
       "closer": "Laura",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-09",
@@ -1264,7 +1378,8 @@
       "closer": "Laura",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-10",
@@ -1275,7 +1390,8 @@
       "closer": "Caro",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-11",
@@ -1286,7 +1402,8 @@
       "closer": "Tony",
       "amount": 1000.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-11",
@@ -1297,7 +1414,8 @@
       "closer": "Laura",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-11",
@@ -1308,7 +1426,8 @@
       "closer": "David",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-11",
@@ -1319,7 +1438,8 @@
       "closer": "Laura",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-11",
@@ -1330,7 +1450,8 @@
       "closer": "Tony",
       "amount": 600.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-11",
@@ -1341,7 +1462,8 @@
       "closer": "Hector",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-11",
@@ -1352,7 +1474,8 @@
       "closer": "Fernando",
       "amount": 50.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-11",
@@ -1363,7 +1486,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-12",
@@ -1374,7 +1498,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-12",
@@ -1385,7 +1510,8 @@
       "closer": "David",
       "amount": 250.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-13",
@@ -1396,7 +1522,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-15",
@@ -1407,7 +1534,8 @@
       "closer": "Caro",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-16",
@@ -1418,7 +1546,8 @@
       "closer": "Laura",
       "amount": 800.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-16",
@@ -1429,7 +1558,8 @@
       "closer": "Tony",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-17",
@@ -1440,7 +1570,8 @@
       "closer": "Tony",
       "amount": 1200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-17",
@@ -1451,7 +1582,8 @@
       "closer": "Tony",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-17",
@@ -1462,7 +1594,8 @@
       "closer": "David",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-17",
@@ -1473,7 +1606,8 @@
       "closer": "Caro",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-17",
@@ -1484,7 +1618,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-17",
@@ -1495,7 +1630,8 @@
       "closer": "Caro",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-18",
@@ -1506,7 +1642,8 @@
       "closer": "Caro",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-18",
@@ -1517,7 +1654,8 @@
       "closer": "Caro",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-18",
@@ -1528,7 +1666,8 @@
       "closer": "Caro",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-19",
@@ -1539,7 +1678,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-19",
@@ -1550,7 +1690,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-19",
@@ -1561,7 +1702,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-19",
@@ -1572,7 +1714,8 @@
       "closer": "Laura",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-19",
@@ -1583,7 +1726,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-20",
@@ -1594,7 +1738,8 @@
       "closer": "David",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-20",
@@ -1605,7 +1750,8 @@
       "closer": "David",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-20",
@@ -1616,7 +1762,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-20",
@@ -1627,7 +1774,8 @@
       "closer": "Tony",
       "amount": 1200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-20",
@@ -1638,7 +1786,8 @@
       "closer": "",
       "amount": 1.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-20",
@@ -1649,7 +1798,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-20",
@@ -1660,7 +1810,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-23",
@@ -1671,7 +1822,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-23",
@@ -1682,7 +1834,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-23",
@@ -1693,7 +1846,8 @@
       "closer": "Caro",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-23",
@@ -1704,7 +1858,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-23",
@@ -1715,7 +1870,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-23",
@@ -1726,7 +1882,8 @@
       "closer": "Laura",
       "amount": 600.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-24",
@@ -1737,7 +1894,8 @@
       "closer": "Fernando",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-24",
@@ -1748,7 +1906,8 @@
       "closer": "Caro",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-24",
@@ -1759,7 +1918,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-24",
@@ -1770,7 +1930,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-25",
@@ -1781,7 +1942,8 @@
       "closer": "Caro",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-25",
@@ -1792,7 +1954,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-25",
@@ -1803,7 +1966,8 @@
       "closer": "Laura",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-25",
@@ -1814,7 +1978,8 @@
       "closer": "Caro",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-25",
@@ -1825,7 +1990,8 @@
       "closer": "Laura",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-25",
@@ -1836,7 +2002,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-26",
@@ -1847,7 +2014,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-26",
@@ -1858,7 +2026,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-26",
@@ -1869,7 +2038,8 @@
       "closer": "Laura",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-26",
@@ -1880,7 +2050,8 @@
       "closer": "Jessica",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-27",
@@ -1891,7 +2062,8 @@
       "closer": "David",
       "amount": 350.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-27",
@@ -1902,7 +2074,8 @@
       "closer": "Caro",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-27",
@@ -1913,7 +2086,8 @@
       "closer": "Jessica",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-27",
@@ -1924,7 +2098,8 @@
       "closer": "Laura",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-27",
@@ -1935,7 +2110,8 @@
       "closer": "David",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-27",
@@ -1946,7 +2122,8 @@
       "closer": "Laura",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-28",
@@ -1957,7 +2134,8 @@
       "closer": "Laura",
       "amount": 1000.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-02-28",
@@ -1968,7 +2146,8 @@
       "closer": "Hector",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-01",
@@ -1979,7 +2158,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-02",
@@ -1990,7 +2170,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-02",
@@ -2001,7 +2182,8 @@
       "closer": "Hector",
       "amount": 300.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-02",
@@ -2012,7 +2194,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-02",
@@ -2023,7 +2206,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-02",
@@ -2034,7 +2218,8 @@
       "closer": "Hector",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-03",
@@ -2045,7 +2230,8 @@
       "closer": "David",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-03",
@@ -2056,7 +2242,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-03",
@@ -2067,7 +2254,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-03",
@@ -2078,7 +2266,8 @@
       "closer": "Jessica",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-03",
@@ -2089,7 +2278,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-03",
@@ -2100,7 +2290,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-03",
@@ -2111,7 +2302,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-04",
@@ -2122,7 +2314,8 @@
       "closer": "Hector",
       "amount": 2000.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-04",
@@ -2133,7 +2326,8 @@
       "closer": "Hector",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-04",
@@ -2144,7 +2338,8 @@
       "closer": "Hector",
       "amount": 400.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-04",
@@ -2155,7 +2350,8 @@
       "closer": "Tony",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-04",
@@ -2166,7 +2362,8 @@
       "closer": "Laura",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-05",
@@ -2177,7 +2374,8 @@
       "closer": "Jessica",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-05",
@@ -2188,7 +2386,8 @@
       "closer": "Tony",
       "amount": 1000.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-05",
@@ -2199,7 +2398,8 @@
       "closer": "Caro",
       "amount": 350.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-05",
@@ -2210,7 +2410,8 @@
       "closer": "David",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-05",
@@ -2221,7 +2422,8 @@
       "closer": "Laura",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-05",
@@ -2232,7 +2434,8 @@
       "closer": "Laura",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-05",
@@ -2243,7 +2446,8 @@
       "closer": "Laura",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-06",
@@ -2254,7 +2458,8 @@
       "closer": "Laura",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-06",
@@ -2265,7 +2470,8 @@
       "closer": "Laura",
       "amount": 1000.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-06",
@@ -2276,7 +2482,8 @@
       "closer": "David",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-06",
@@ -2287,7 +2494,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-06",
@@ -2298,7 +2506,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-07",
@@ -2309,7 +2518,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-07",
@@ -2320,7 +2530,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-07",
@@ -2331,7 +2542,8 @@
       "closer": "Caro",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-09",
@@ -2342,7 +2554,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-09",
@@ -2353,7 +2566,8 @@
       "closer": "Caro",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-09",
@@ -2364,7 +2578,8 @@
       "closer": "David",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-09",
@@ -2375,7 +2590,8 @@
       "closer": "David",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-09",
@@ -2386,7 +2602,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-09",
@@ -2397,7 +2614,8 @@
       "closer": "Fernando",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-10",
@@ -2408,7 +2626,8 @@
       "closer": "Caro",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-10",
@@ -2419,7 +2638,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-10",
@@ -2430,7 +2650,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-10",
@@ -2441,7 +2662,8 @@
       "closer": "David",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-10",
@@ -2452,7 +2674,8 @@
       "closer": "Laura",
       "amount": 350.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-11",
@@ -2463,7 +2686,8 @@
       "closer": "Jessica",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-11",
@@ -2474,7 +2698,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-11",
@@ -2485,7 +2710,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-12",
@@ -2496,7 +2722,8 @@
       "closer": "Tony",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-12",
@@ -2507,7 +2734,8 @@
       "closer": "Hector",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-12",
@@ -2518,7 +2746,8 @@
       "closer": "Hector",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-12",
@@ -2529,7 +2758,8 @@
       "closer": "Laura",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-12",
@@ -2540,7 +2770,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-12",
@@ -2551,7 +2782,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-12",
@@ -2562,7 +2794,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-12",
@@ -2573,7 +2806,8 @@
       "closer": "Hector",
       "amount": 400.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-12",
@@ -2584,7 +2818,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-13",
@@ -2595,7 +2830,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-13",
@@ -2606,7 +2842,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-13",
@@ -2617,7 +2854,8 @@
       "closer": "Laura",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-16",
@@ -2628,7 +2866,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-16",
@@ -2639,7 +2878,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-16",
@@ -2650,7 +2890,8 @@
       "closer": "Fernando",
       "amount": 500.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-16",
@@ -2661,7 +2902,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-16",
@@ -2672,7 +2914,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-17",
@@ -2683,7 +2926,8 @@
       "closer": "Caro",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-17",
@@ -2694,7 +2938,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-18",
@@ -2705,7 +2950,8 @@
       "closer": "Laura",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-18",
@@ -2716,7 +2962,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-18",
@@ -2727,7 +2974,8 @@
       "closer": "Hector",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-18",
@@ -2738,7 +2986,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-18",
@@ -2749,7 +2998,8 @@
       "closer": "Hector",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-19",
@@ -2760,7 +3010,8 @@
       "closer": "Laura",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-19",
@@ -2771,7 +3022,8 @@
       "closer": "David",
       "amount": 250.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-19",
@@ -2782,7 +3034,8 @@
       "closer": "Laura",
       "amount": 700.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-19",
@@ -2793,7 +3046,8 @@
       "closer": "Tony",
       "amount": 1000.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-19",
@@ -2804,7 +3058,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-19",
@@ -2815,7 +3070,8 @@
       "closer": "Caro",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-20",
@@ -2826,7 +3082,8 @@
       "closer": "Laura",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-20",
@@ -2837,7 +3094,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-23",
@@ -2848,7 +3106,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-23",
@@ -2859,7 +3118,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-23",
@@ -2870,7 +3130,8 @@
       "closer": "David",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-23",
@@ -2881,7 +3142,8 @@
       "closer": "Laura",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-23",
@@ -2892,7 +3154,8 @@
       "closer": "Jessica",
       "amount": 1000.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-24",
@@ -2903,7 +3166,8 @@
       "closer": "Jessica",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-24",
@@ -2914,7 +3178,8 @@
       "closer": "Hector",
       "amount": 200.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-24",
@@ -2925,7 +3190,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-25",
@@ -2936,7 +3202,8 @@
       "closer": "Jessica",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-25",
@@ -2946,8 +3213,9 @@
       "finder": "David",
       "closer": "David",
       "amount": 500.0,
-      "paidStatus": "Pending",
-      "isPaid": false
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-25",
@@ -2958,7 +3226,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-25",
@@ -2969,7 +3238,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-26",
@@ -2980,7 +3250,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-26",
@@ -2991,7 +3262,8 @@
       "closer": "Fernando",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-27",
@@ -3002,7 +3274,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-28",
@@ -3013,7 +3286,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-30",
@@ -3024,7 +3298,8 @@
       "closer": "Fernando",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-30",
@@ -3035,7 +3310,8 @@
       "closer": "Caro",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-30",
@@ -3046,7 +3322,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-31",
@@ -3057,7 +3334,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-03-31",
@@ -3068,7 +3346,8 @@
       "closer": "Jessica",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-01",
@@ -3079,7 +3358,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-01",
@@ -3090,7 +3370,8 @@
       "closer": "Tony",
       "amount": 500.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-01",
@@ -3101,7 +3382,8 @@
       "closer": "David",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-01",
@@ -3112,7 +3394,8 @@
       "closer": "David",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-01",
@@ -3123,7 +3406,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-01",
@@ -3134,7 +3418,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-02",
@@ -3145,7 +3430,8 @@
       "closer": "Laura",
       "amount": 2000.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-02",
@@ -3156,7 +3442,8 @@
       "closer": "David",
       "amount": 300.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-02",
@@ -3167,7 +3454,8 @@
       "closer": "Jessica",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-02",
@@ -3178,7 +3466,8 @@
       "closer": "David",
       "amount": 1000.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-02",
@@ -3189,7 +3478,8 @@
       "closer": "David",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-02",
@@ -3200,7 +3490,8 @@
       "closer": "David",
       "amount": 500.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-02",
@@ -3211,7 +3502,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-02",
@@ -3222,7 +3514,8 @@
       "closer": "Caro",
       "amount": 500.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-03",
@@ -3233,7 +3526,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-03",
@@ -3244,7 +3538,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-03",
@@ -3255,7 +3550,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-03",
@@ -3266,7 +3562,8 @@
       "closer": "Fernando",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-06",
@@ -3277,7 +3574,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-07",
@@ -3288,7 +3586,8 @@
       "closer": "Laura",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-07",
@@ -3299,7 +3598,8 @@
       "closer": "Jessica",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-07",
@@ -3310,7 +3610,8 @@
       "closer": "David",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-07",
@@ -3321,7 +3622,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-07",
@@ -3332,7 +3634,8 @@
       "closer": "Jessica",
       "amount": 700.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-07",
@@ -3343,7 +3646,8 @@
       "closer": "David",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-08",
@@ -3354,7 +3658,8 @@
       "closer": "Jessica",
       "amount": 700.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-08",
@@ -3365,7 +3670,8 @@
       "closer": "Laura",
       "amount": 350.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-08",
@@ -3376,7 +3682,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-09",
@@ -3387,7 +3694,8 @@
       "closer": "Hector",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-09",
@@ -3398,7 +3706,8 @@
       "closer": "Jessica",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-09",
@@ -3409,7 +3718,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-09",
@@ -3420,7 +3730,8 @@
       "closer": "Laura",
       "amount": 600.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-09",
@@ -3431,7 +3742,8 @@
       "closer": "Valentina",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-09",
@@ -3442,7 +3754,8 @@
       "closer": "Caro",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-09",
@@ -3453,7 +3766,8 @@
       "closer": "Laura",
       "amount": 400.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-10",
@@ -3464,7 +3778,8 @@
       "closer": "Laura",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-10",
@@ -3475,7 +3790,8 @@
       "closer": "David",
       "amount": 250.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-10",
@@ -3486,7 +3802,8 @@
       "closer": "Hector",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-10",
@@ -3497,7 +3814,8 @@
       "closer": "David",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-10",
@@ -3508,7 +3826,8 @@
       "closer": "Laura",
       "amount": 225.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-10",
@@ -3519,7 +3838,8 @@
       "closer": "Laura",
       "amount": 225.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-10",
@@ -3530,7 +3850,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-11",
@@ -3541,7 +3862,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-13",
@@ -3552,7 +3874,8 @@
       "closer": "Laura",
       "amount": 700.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-13",
@@ -3563,7 +3886,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-13",
@@ -3574,7 +3898,8 @@
       "closer": "Tony",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-14",
@@ -3585,7 +3910,8 @@
       "closer": "Hector",
       "amount": 400.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-14",
@@ -3596,7 +3922,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-14",
@@ -3607,7 +3934,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-14",
@@ -3618,7 +3946,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-15",
@@ -3629,7 +3958,8 @@
       "closer": "Hector",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-15",
@@ -3640,7 +3970,8 @@
       "closer": "David",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-15",
@@ -3651,7 +3982,8 @@
       "closer": "David",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-15",
@@ -3662,7 +3994,8 @@
       "closer": "Caro",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-15",
@@ -3673,7 +4006,8 @@
       "closer": "Laura",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-15",
@@ -3684,7 +4018,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-15",
@@ -3695,7 +4030,8 @@
       "closer": "Caro",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-16",
@@ -3706,7 +4042,8 @@
       "closer": "Laura",
       "amount": 1000.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-16",
@@ -3717,7 +4054,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-16",
@@ -3728,7 +4066,8 @@
       "closer": "David",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-16",
@@ -3739,7 +4078,8 @@
       "closer": "Hector",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-17",
@@ -3750,7 +4090,8 @@
       "closer": "Tony",
       "amount": 900.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-17",
@@ -3761,7 +4102,8 @@
       "closer": "Laura",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-17",
@@ -3772,7 +4114,8 @@
       "closer": "Laura",
       "amount": 800.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-17",
@@ -3783,7 +4126,8 @@
       "closer": "Eddy",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-17",
@@ -3794,7 +4138,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-17",
@@ -3805,7 +4150,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-17",
@@ -3816,7 +4162,8 @@
       "closer": "Laura",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-17",
@@ -3827,7 +4174,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-17",
@@ -3838,7 +4186,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-18",
@@ -3849,7 +4198,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-20",
@@ -3860,7 +4210,8 @@
       "closer": "Laura",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-20",
@@ -3871,7 +4222,8 @@
       "closer": "Laura",
       "amount": 750.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-21",
@@ -3882,7 +4234,8 @@
       "closer": "Fernando",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-21",
@@ -3893,7 +4246,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-21",
@@ -3904,7 +4258,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-22",
@@ -3915,7 +4270,8 @@
       "closer": "Eddy",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-22",
@@ -3926,7 +4282,8 @@
       "closer": "Caro",
       "amount": 200.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-22",
@@ -3937,7 +4294,8 @@
       "closer": "Laura",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-22",
@@ -3948,7 +4306,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-23",
@@ -3959,7 +4318,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-23",
@@ -3970,7 +4330,8 @@
       "closer": "Eddy",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-23",
@@ -3981,7 +4342,8 @@
       "closer": "Caro",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-24",
@@ -3992,7 +4354,8 @@
       "closer": "Tony",
       "amount": 1000.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-24",
@@ -4003,7 +4366,8 @@
       "closer": "Laura",
       "amount": 200.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-24",
@@ -4014,7 +4378,8 @@
       "closer": "Eddy",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-24",
@@ -4025,7 +4390,8 @@
       "closer": "Hector",
       "amount": 200.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-24",
@@ -4036,7 +4402,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-24",
@@ -4047,7 +4414,8 @@
       "closer": "",
       "amount": 200.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-24",
@@ -4058,7 +4426,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-24",
@@ -4069,7 +4438,8 @@
       "closer": "Laura",
       "amount": 350.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-25",
@@ -4080,7 +4450,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-25",
@@ -4091,7 +4462,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-27",
@@ -4102,7 +4474,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-27",
@@ -4113,7 +4486,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-28",
@@ -4124,7 +4498,8 @@
       "closer": "David",
       "amount": 400.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-28",
@@ -4135,7 +4510,8 @@
       "closer": "Eddy",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-28",
@@ -4146,7 +4522,8 @@
       "closer": "Jessica",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-28",
@@ -4157,7 +4534,8 @@
       "closer": "David",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-28",
@@ -4168,7 +4546,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-28",
@@ -4179,7 +4558,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-28",
@@ -4190,7 +4570,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-29",
@@ -4201,7 +4582,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-29",
@@ -4212,7 +4594,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-29",
@@ -4223,7 +4606,8 @@
       "closer": "Laura",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-29",
@@ -4234,7 +4618,8 @@
       "closer": "Laura",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-29",
@@ -4245,7 +4630,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-04-30",
@@ -4256,7 +4642,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-01",
@@ -4267,7 +4654,8 @@
       "closer": "Laura",
       "amount": 350.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-01",
@@ -4278,7 +4666,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-01",
@@ -4289,7 +4678,8 @@
       "closer": "Laura",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-04",
@@ -4300,7 +4690,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-05",
@@ -4311,7 +4702,8 @@
       "closer": "Tony",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-05",
@@ -4322,7 +4714,8 @@
       "closer": "Laura",
       "amount": 400.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-05",
@@ -4333,7 +4726,8 @@
       "closer": "Laura",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-06",
@@ -4344,7 +4738,8 @@
       "closer": "David",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-06",
@@ -4355,7 +4750,8 @@
       "closer": "Caro",
       "amount": 500.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-06",
@@ -4366,7 +4762,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-06",
@@ -4377,7 +4774,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-06",
@@ -4388,7 +4786,8 @@
       "closer": "Fernando",
       "amount": 400.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-06",
@@ -4399,7 +4798,8 @@
       "closer": "David",
       "amount": 50.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-07",
@@ -4410,7 +4810,8 @@
       "closer": "Laura",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-07",
@@ -4421,7 +4822,8 @@
       "closer": "Jessica",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-07",
@@ -4432,7 +4834,8 @@
       "closer": "Jessica",
       "amount": 1000.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-07",
@@ -4443,7 +4846,8 @@
       "closer": "Caro",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-07",
@@ -4454,7 +4858,8 @@
       "closer": "Fernando",
       "amount": 400.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-08",
@@ -4465,7 +4870,8 @@
       "closer": "Caro",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-08",
@@ -4476,7 +4882,8 @@
       "closer": "Fernando",
       "amount": 400.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-08",
@@ -4487,7 +4894,8 @@
       "closer": "Hector",
       "amount": 200.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-08",
@@ -4498,7 +4906,8 @@
       "closer": "Jessica",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-08",
@@ -4509,7 +4918,8 @@
       "closer": "David",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-08",
@@ -4520,7 +4930,8 @@
       "closer": "Hector",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-08",
@@ -4531,7 +4942,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-09",
@@ -4542,7 +4954,8 @@
       "closer": "David",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-09",
@@ -4553,7 +4966,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-11",
@@ -4564,7 +4978,8 @@
       "closer": "Tony",
       "amount": 1000.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-11",
@@ -4575,7 +4990,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-11",
@@ -4586,7 +5002,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-11",
@@ -4597,7 +5014,8 @@
       "closer": "David",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-11",
@@ -4608,7 +5026,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-12",
@@ -4619,7 +5038,8 @@
       "closer": "David",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-12",
@@ -4630,7 +5050,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-13",
@@ -4641,7 +5062,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-13",
@@ -4652,7 +5074,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-14",
@@ -4663,7 +5086,8 @@
       "closer": "Tony",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-14",
@@ -4674,7 +5098,8 @@
       "closer": "Hector",
       "amount": 300.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-14",
@@ -4685,7 +5110,8 @@
       "closer": "Jessica",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-14",
@@ -4696,7 +5122,8 @@
       "closer": "Tony",
       "amount": 5000.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-14",
@@ -4707,7 +5134,8 @@
       "closer": "Fernando",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-14",
@@ -4718,7 +5146,8 @@
       "closer": "Laura",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-15",
@@ -4729,7 +5158,8 @@
       "closer": "Laura",
       "amount": 500.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-15",
@@ -4740,7 +5170,8 @@
       "closer": "Jessica",
       "amount": 400.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-15",
@@ -4751,7 +5182,8 @@
       "closer": "Laura",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-18",
@@ -4762,7 +5194,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-18",
@@ -4773,7 +5206,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-18",
@@ -4784,7 +5218,8 @@
       "closer": "Laura",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-19",
@@ -4795,7 +5230,8 @@
       "closer": "Laura",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-19",
@@ -4806,7 +5242,8 @@
       "closer": "Tony",
       "amount": 1000.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-19",
@@ -4817,7 +5254,8 @@
       "closer": "David",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-20",
@@ -4828,7 +5266,8 @@
       "closer": "Jessica",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-20",
@@ -4839,7 +5278,8 @@
       "closer": "Caro",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-20",
@@ -4850,7 +5290,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-20",
@@ -4861,7 +5302,8 @@
       "closer": "David",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-20",
@@ -4872,7 +5314,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-21",
@@ -4883,7 +5326,8 @@
       "closer": "David",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-21",
@@ -4894,7 +5338,8 @@
       "closer": "Laura",
       "amount": 700.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-22",
@@ -4905,7 +5350,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-22",
@@ -4916,7 +5362,8 @@
       "closer": "Tony",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-22",
@@ -4927,7 +5374,8 @@
       "closer": "David",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-22",
@@ -4938,7 +5386,8 @@
       "closer": "Laura",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-23",
@@ -4949,7 +5398,8 @@
       "closer": "Jessica",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-25",
@@ -4960,7 +5410,8 @@
       "closer": "Laura",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-26",
@@ -4971,7 +5422,8 @@
       "closer": "Caro",
       "amount": 30.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-26",
@@ -4982,7 +5434,8 @@
       "closer": "Jessica",
       "amount": 350.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-27",
@@ -4993,7 +5446,8 @@
       "closer": "Fernando",
       "amount": 350.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-27",
@@ -5004,7 +5458,8 @@
       "closer": "Fernando",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-27",
@@ -5015,7 +5470,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-28",
@@ -5026,7 +5482,8 @@
       "closer": "David",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-28",
@@ -5037,7 +5494,8 @@
       "closer": "Laura",
       "amount": 280.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-28",
@@ -5048,7 +5506,8 @@
       "closer": "Hector",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-29",
@@ -5059,7 +5518,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-29",
@@ -5070,7 +5530,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-29",
@@ -5081,7 +5542,8 @@
       "closer": "Hector",
       "amount": 800.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-29",
@@ -5092,7 +5554,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-29",
@@ -5103,7 +5566,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-29",
@@ -5114,7 +5578,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-05-29",
@@ -5125,7 +5590,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-06-01",
@@ -5136,7 +5602,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-06-01",
@@ -5147,7 +5614,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-06-01",
@@ -5158,7 +5626,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-06-01",
@@ -5169,7 +5638,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-06-02",
@@ -5180,7 +5650,8 @@
       "closer": "Fernando",
       "amount": 50.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-06-02",
@@ -5191,7 +5662,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-06-02",
@@ -5202,7 +5674,8 @@
       "closer": "Laura",
       "amount": 400.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-06-02",
@@ -5213,7 +5686,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-06-03",
@@ -5224,7 +5698,8 @@
       "closer": "Laura",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-06-03",
@@ -5235,7 +5710,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-06-03",
@@ -5246,7 +5722,8 @@
       "closer": "Laura",
       "amount": 250.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-06-03",
@@ -5257,7 +5734,8 @@
       "closer": "Laura",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-06-03",
@@ -5268,7 +5746,8 @@
       "closer": "Fernando",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-06-04",
@@ -5279,7 +5758,8 @@
       "closer": "David",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-06-04",
@@ -5290,7 +5770,8 @@
       "closer": "Laura",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-06-04",
@@ -5301,7 +5782,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-06-04",
@@ -5312,7 +5794,8 @@
       "closer": "Laura",
       "amount": 400.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-06-04",
@@ -5323,7 +5806,8 @@
       "closer": "David",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-06-05",
@@ -5334,7 +5818,8 @@
       "closer": "Fernando",
       "amount": 150.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-06-05",
@@ -5345,7 +5830,8 @@
       "closer": "Fernando",
       "amount": 300.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-06-05",
@@ -5356,7 +5842,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-06-05",
@@ -5367,7 +5854,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-06-08",
@@ -5378,7 +5866,8 @@
       "closer": "Tony",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-06-08",
@@ -5389,7 +5878,8 @@
       "closer": "Laura",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-06-08",
@@ -5400,7 +5890,8 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-06-09",
@@ -5411,7 +5902,8 @@
       "closer": "Jessica",
       "amount": 500.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-06-09",
@@ -5422,7 +5914,8 @@
       "closer": "Laura",
       "amount": 100.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-06-09",
@@ -5433,51 +5926,1436 @@
       "closer": "Fernando",
       "amount": 200.0,
       "paidStatus": "Paid",
-      "isPaid": true
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-10",
+      "customer": "Lisseth",
+      "product": "I-601A",
+      "service": "I-601A Waiver",
+      "finder": "Fernando",
+      "closer": "Tony",
+      "amount": 1300.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-10",
+      "customer": "Omar",
+      "product": "I-130 1st Step",
+      "service": "I-130 Family Sponsorship",
+      "finder": "Hector",
+      "closer": "Laura",
+      "amount": 500.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-10",
+      "customer": "Khaled",
+      "product": "NVC",
+      "service": "NVC Processing",
+      "finder": "Hector",
+      "closer": "Laura",
+      "amount": 350.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-10",
+      "customer": "Consuelo Sawali",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-10",
+      "customer": "MIchael Washington",
+      "product": "Special",
+      "service": "Other",
+      "finder": "Fernando",
+      "closer": "Hector",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-10",
+      "customer": "Maria Maya",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 100.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-11",
+      "customer": "Michael Ciorcari",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 100.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-11",
+      "customer": "Hycanth Wallace",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "David",
+      "closer": "David",
+      "amount": 400.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-11",
+      "customer": "Julio Vargas",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Hector",
+      "closer": "Hector",
+      "amount": 100.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-11",
+      "customer": "Consuelo Sawali",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 150.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-11",
+      "customer": "John Kong",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-11",
+      "customer": "Cornelio Aviles",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-11",
+      "customer": "Liliana Ramirez",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-06-12",
-      "customer": "Eloisa Ruiz",
-      "product": "I-90/912",
+      "customer": "Sandra Anderson",
+      "product": "I-90",
       "service": "I-90 Green Card Renewal",
-      "finder": "David",
-      "closer": "Hector",
-      "amount": 100.0,
-      "paidStatus": "Pending",
-      "isPaid": false
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 150.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
-      "date": "2026-06-18",
-      "customer": "Celestino",
+      "date": "2026-06-12",
+      "customer": "Cherlie",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "David",
+      "closer": "David",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-12",
+      "customer": "Sandra Anderson",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 100.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-12",
+      "customer": "Mario Avila",
+      "product": "All at Once",
+      "service": "All at Once Bundle",
+      "finder": "Hector",
+      "closer": "Laura",
+      "amount": 500.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-12",
+      "customer": "Paula Lewis",
+      "product": "All at Once",
+      "service": "All at Once Bundle",
+      "finder": "Fernando",
+      "closer": "Laura",
+      "amount": 500.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-12",
+      "customer": "Breana Seymour",
+      "product": "All at Once",
+      "service": "All at Once Bundle",
+      "finder": "Fernando",
+      "closer": "Laura",
+      "amount": 150.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-15",
+      "customer": "Williarth",
       "product": "I-751",
       "service": "I-751 Removal of Conditions",
       "finder": "Hector",
       "closer": "Hector",
       "amount": 200.0,
-      "paidStatus": "Pending",
-      "isPaid": false
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
-      "date": "2026-06-29",
+      "date": "2026-06-15",
+      "customer": "Pedro Llena",
+      "product": "NVC",
+      "service": "NVC Processing",
+      "finder": "Hector",
+      "closer": "Laura",
+      "amount": 100.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-15",
+      "customer": "Alfredo Villegas",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "David",
+      "closer": "David",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-15",
+      "customer": "Thasha Wright",
+      "product": "All at Once",
+      "service": "All at Once Bundle",
+      "finder": "Fernando",
+      "closer": "Laura",
+      "amount": 1000.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-15",
+      "customer": "Biel Deieng",
+      "product": "I-90 Online",
+      "service": "I-90 Green Card Renewal",
+      "finder": "David",
+      "closer": "David",
+      "amount": 250.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-15",
+      "customer": "Abraham Ayo",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-15",
+      "customer": "Nicole Charles",
+      "product": "Special",
+      "service": "Other",
+      "finder": "Fernando",
+      "closer": "Jesus",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-15",
+      "customer": "Alfredo Villegas",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "David",
+      "closer": "David",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-16",
+      "customer": "Maria Aguirre",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "Hector",
+      "closer": "Hector",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-16",
+      "customer": "Mark Matheson",
+      "product": "I-130",
+      "service": "I-130 Family Sponsorship",
+      "finder": "Fernando",
+      "closer": "Laura",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-16",
+      "customer": "Mark Matheson",
+      "product": "I-130",
+      "service": "I-130 Family Sponsorship",
+      "finder": "Fernando",
+      "closer": "Laura",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-17",
+      "customer": "Cledis",
+      "product": "I-601A",
+      "service": "I-601A Waiver",
+      "finder": "Fernando",
+      "closer": "Tony",
+      "amount": 500.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-17",
+      "customer": "Bernadette",
+      "product": "I-130",
+      "service": "I-130 Family Sponsorship",
+      "finder": "Hector",
+      "closer": "Jessica",
+      "amount": 400.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-17",
+      "customer": "Omar",
+      "product": "I-130 1st Step",
+      "service": "I-130 Family Sponsorship",
+      "finder": "Hector",
+      "closer": "Laura",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-17",
+      "customer": "Maria",
+      "product": "I-90 Online",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Hector",
+      "closer": "David",
+      "amount": 300.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-17",
+      "customer": "Angelica Uribe",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-17",
+      "customer": "Liliana Ramirez",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-18",
       "customer": "Janette for Petra",
       "product": "All at Once",
       "service": "All at Once Bundle",
       "finder": "Hector",
       "closer": "Laura",
       "amount": 1500.0,
-      "paidStatus": "Pending",
-      "isPaid": false
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
     },
     {
-      "date": "2026-07-18",
+      "date": "2026-06-18",
+      "customer": "Ivonne Romero",
+      "product": "All at Once",
+      "service": "All at Once Bundle",
+      "finder": "Hector",
+      "closer": "Laura",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-18",
+      "customer": "Wendy Fraser",
+      "product": "N-565",
+      "service": "N-565",
+      "finder": "David",
+      "closer": "David",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-18",
+      "customer": "Viriginia Navarro",
+      "product": "I-90/912",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Hector",
+      "closer": "Jesus",
+      "amount": 150.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-19",
+      "customer": "Luisa",
+      "product": "NVC",
+      "service": "NVC Processing",
+      "finder": "Hector",
+      "closer": "Laura",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-19",
       "customer": "Celestino",
       "product": "I-751",
       "service": "I-751 Removal of Conditions",
       "finder": "Hector",
       "closer": "Hector",
       "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-19",
+      "customer": "Suleman",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "David",
+      "closer": "Laura",
+      "amount": 100.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-19",
+      "customer": "Suleman",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "David",
+      "closer": "Laura",
+      "amount": 100.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-19",
+      "customer": "Suleman",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "David",
+      "closer": "Laura",
+      "amount": 125.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-22",
+      "customer": "Apolinar Hernandez",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-22",
+      "customer": "Richarda Cavling",
+      "product": "I-90 Online",
+      "service": "I-90 Green Card Renewal",
+      "finder": "David",
+      "closer": "David",
+      "amount": 250.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-22",
+      "customer": "Alba Beatriz Tamay Ojeda",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "David",
+      "closer": "David",
+      "amount": 300.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-22",
+      "customer": "Divina Sale",
+      "product": "Visa Fees",
+      "service": "Visa Fees",
+      "finder": "Hector",
+      "closer": "Jessica",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-22",
+      "customer": "Susan George",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-22",
+      "customer": "Maria Aguirre",
+      "product": "N-400/912",
+      "service": "N-400 Citizenship",
+      "finder": "Hector",
+      "closer": "Hector",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-23",
+      "customer": "Maria Reyes",
+      "product": "N-565",
+      "service": "N-565",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 100.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-23",
+      "customer": "Ernesto",
+      "product": "NVC",
+      "service": "NVC Processing",
+      "finder": "Hector",
+      "closer": "Jessica",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-23",
+      "customer": "Ivonne Thompson",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "David",
+      "closer": "David",
+      "amount": 350.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-23",
+      "customer": "Socorro Coto",
+      "product": "FOIA",
+      "service": "FOIA",
+      "finder": "Fernando",
+      "closer": "Jesus",
+      "amount": 150.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-24",
+      "customer": "Rowena",
+      "product": "Visa Fees",
+      "service": "Visa Fees",
+      "finder": "Hector",
+      "closer": "Jessica",
+      "amount": 150.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-24",
+      "customer": "Rowena",
+      "product": "Visa Fees",
+      "service": "Visa Fees",
+      "finder": "Hector",
+      "closer": "Jessica",
+      "amount": 150.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-24",
+      "customer": "Djiby wife",
+      "product": "I-130",
+      "service": "I-130 Family Sponsorship",
+      "finder": "Hector",
+      "closer": "Jessica",
+      "amount": 100.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-24",
+      "customer": "Djiby Daughter",
+      "product": "I-130",
+      "service": "I-130 Family Sponsorship",
+      "finder": "Hector",
+      "closer": "Jessica",
+      "amount": 700.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-24",
+      "customer": "Maria Aguirre",
+      "product": "N-400/912",
+      "service": "N-400 Citizenship",
+      "finder": "Hector",
+      "closer": "Hector",
+      "amount": 50.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-24",
+      "customer": "Mukeya",
+      "product": "I-130",
+      "service": "I-130 Family Sponsorship",
+      "finder": "Fernando",
+      "closer": "Laura",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-24",
+      "customer": "Charles Harrison",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-24",
+      "customer": "Cornelo Aviles",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 150.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-24",
+      "customer": "Susan George",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 150.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-25",
+      "customer": "Nancy Elias",
+      "product": "All at Once",
+      "service": "All at Once Bundle",
+      "finder": "Fernando",
+      "closer": "Laura",
+      "amount": 1500.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-25",
+      "customer": "Raphael Winn",
+      "product": "I-130",
+      "service": "I-130 Family Sponsorship",
+      "finder": "Fernando",
+      "closer": "Laura",
+      "amount": 300.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-25",
+      "customer": "Alendra Backer",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-25",
+      "customer": "Jaime",
+      "product": "FOIA",
+      "service": "FOIA",
+      "finder": "David",
+      "closer": "Hector",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-25",
+      "customer": "Maria Wife of Jaime",
+      "product": "FOIA",
+      "service": "FOIA",
+      "finder": "David",
+      "closer": "Hector",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-26",
+      "customer": "Rebecca Harris",
+      "product": "N-600",
+      "service": "N-600 Certificate",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-26",
+      "customer": "Ibrahmia Seck",
+      "product": "NVC",
+      "service": "NVC Processing",
+      "finder": "Fernando",
+      "closer": "Laura",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-26",
+      "customer": "Alba Tamay",
+      "product": "I-90/912",
+      "service": "I-90 Green Card Renewal",
+      "finder": "David",
+      "closer": "David",
+      "amount": 350.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-29",
+      "customer": "Ruben",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Hector",
+      "closer": "Hector",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-29",
+      "customer": "Ariela for Luis",
+      "product": "All at Once",
+      "service": "All at Once Bundle",
+      "finder": "Fernando",
+      "closer": "Laura",
+      "amount": 500.0,
+      "paidStatus": "Pending",
+      "isPaid": false,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-29",
+      "customer": "Hana",
+      "product": "All at Once",
+      "service": "All at Once Bundle",
+      "finder": "Fernando",
+      "closer": "Jessica",
+      "amount": 1500.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-29",
+      "customer": "Jesus Sosa Son",
+      "product": "Visa Fees",
+      "service": "Visa Fees",
+      "finder": "Hector",
+      "closer": "Hector",
+      "amount": 150.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-29",
+      "customer": "Mario Avila",
+      "product": "All at Once",
+      "service": "All at Once Bundle",
+      "finder": "Hector",
+      "closer": "Jessica",
+      "amount": 800.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-29",
+      "customer": "Erik Rascon",
+      "product": "Fiance 1st step",
+      "service": "K1/Fianc\u00e9 Visa",
+      "finder": "Fernando",
+      "closer": "Laura",
+      "amount": 300.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-29",
+      "customer": "Pedro Antonino Cruz",
+      "product": "I-90 Online",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Hector",
+      "closer": "Jesus",
+      "amount": 250.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-29",
+      "customer": "Keyla",
+      "product": "I-751",
+      "service": "I-751 Removal of Conditions",
+      "finder": "David",
+      "closer": "Laura",
+      "amount": 250.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-30",
+      "customer": "Maria Cruz",
+      "product": "I-90 Online",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Hector",
+      "closer": "Jesus",
+      "amount": 250.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-30",
+      "customer": "Brenda Antonino Cruz",
+      "product": "I-90 Online",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Hector",
+      "closer": "Jesus",
+      "amount": 250.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-30",
+      "customer": "Franch Antonino Cruz",
+      "product": "I-90 Online",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Hector",
+      "closer": "Jesus",
+      "amount": 250.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-30",
+      "customer": "Cerue Tongor",
+      "product": "N-600",
+      "service": "N-600 Certificate",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 250.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-30",
+      "customer": "Cherlie Hyacnithe",
+      "product": "NVC",
+      "service": "NVC Processing",
+      "finder": "David",
+      "closer": "Laura",
+      "amount": 900.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-06-30",
+      "customer": "Andy Elliot",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 100.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-01",
+      "customer": "Chris Sowers",
+      "product": "I-90 Online",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Jesus",
+      "amount": 250.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-01",
+      "customer": "Chris Garcia",
+      "product": "All at Once Premium",
+      "service": "All at Once Bundle",
+      "finder": "Hector",
+      "closer": "Hector",
+      "amount": 1000.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-01",
+      "customer": "Musa Kamara",
+      "product": "N-400/912",
+      "service": "N-400 Citizenship",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-01",
+      "customer": "Jose Guido for uncle Eucebio",
+      "product": "I-90 Online",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-01",
+      "customer": "Aviel Hanna",
+      "product": "All at Once",
+      "service": "All at Once Bundle",
+      "finder": "Fernando",
+      "closer": "Laura",
+      "amount": 500.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-01",
+      "customer": "Charles Harrison",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 150.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-02",
+      "customer": "Sandra Montoya",
+      "product": "I-751",
+      "service": "I-751 Removal of Conditions",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 400.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-02",
+      "customer": "Ana Sosa",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-02",
+      "customer": "Anelie Jeannestin",
+      "product": "NVC",
+      "service": "NVC Processing",
+      "finder": "David",
+      "closer": "Laura",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-03",
+      "customer": "Betty Ndong",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-03",
+      "customer": "John Kong",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 150.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-06",
+      "customer": "Emma Serna",
+      "product": "I-601A",
+      "service": "I-601A Waiver",
+      "finder": "Hector",
+      "closer": "Tony",
+      "amount": 310.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-06",
+      "customer": "Jose Guido",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 150.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-06",
+      "customer": "Fumilayo Akintomide",
+      "product": "i-130",
+      "service": "I-130 Family Sponsorship",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-07",
+      "customer": "Ana Sosa",
+      "product": "n-400",
+      "service": "N-400 Citizenship",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 250.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-07",
+      "customer": "Patricia Tobar",
+      "product": "N-565",
+      "service": "N-565",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 100.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-07",
+      "customer": "Maria Reynoso",
+      "product": "NVC",
+      "service": "NVC Processing",
+      "finder": "Fernando",
+      "closer": "Laura",
+      "amount": 250.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-08",
+      "customer": "Antonio Almadin",
+      "product": "I-90 Online",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Hector",
+      "closer": "Jesus",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-08",
+      "customer": "Charles Oaks",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Hector",
+      "closer": "Hector",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-09",
+      "customer": "Jose Madueno",
+      "product": "N-400/942",
+      "service": "N-400 Citizenship",
+      "finder": "David",
+      "closer": "Hector",
+      "amount": 350.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-09",
+      "customer": "Cherlie Hyacnithe",
+      "product": "NVC",
+      "service": "NVC Processing",
+      "finder": "David",
+      "closer": "Laura",
+      "amount": 900.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-09",
+      "customer": "Love to care for Ivan",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-09",
+      "customer": "Omar for Khaled",
+      "product": "NVC",
+      "service": "NVC Processing",
+      "finder": "Hector",
+      "closer": "Laura",
+      "amount": 350.0,
+      "paidStatus": "Pending",
+      "isPaid": false,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-09",
+      "customer": "Sandra Borba",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-10",
+      "customer": "ISALIA AYALA $400 N 400 07/10/26",
+      "product": "",
+      "service": "Other",
+      "finder": "David",
+      "closer": "David",
+      "amount": 250.0,
+      "paidStatus": "Pending",
+      "isPaid": false,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-10",
+      "customer": "Sandra Borboa",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 150.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-13",
+      "customer": "Yvonne Nagair",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 150.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-13",
+      "customer": "Rogelio",
+      "product": "I-90 Online",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Hector",
+      "closer": "Jesus",
+      "amount": 250.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-13",
+      "customer": "Thasha Wright",
+      "product": "All at Once",
+      "service": "All at Once Bundle",
+      "finder": "Fernando",
+      "closer": "Laura",
+      "amount": 1000.0,
+      "paidStatus": "Pending",
+      "isPaid": false,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-13",
+      "customer": "Owen Brown",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-15",
+      "customer": "Clyde Sanchez",
+      "product": "I-130",
+      "service": "I-130 Family Sponsorship",
+      "finder": "Jessica",
+      "closer": "Hector",
+      "amount": 100.0,
+      "paidStatus": "Pending",
+      "isPaid": false,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-17",
+      "customer": "Jean Baptiste",
+      "product": "N-600/912",
+      "service": "N-600 Certificate",
+      "finder": "Hector",
+      "closer": "Jesus",
+      "amount": 500.0,
+      "paidStatus": "Pending",
+      "isPaid": false,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-18",
+      "customer": "Selestino",
+      "product": "I-751",
+      "service": "I-751 Removal of Conditions",
+      "finder": "Hector",
+      "closer": "Hector",
+      "amount": 200.0,
+      "paidStatus": "Pending",
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-08-18",
@@ -5488,7 +7366,8 @@
       "closer": "Hector",
       "amount": 200.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     },
     {
       "date": "2026-09-18",
@@ -5499,7 +7378,8 @@
       "closer": "Hector",
       "amount": 100.0,
       "paidStatus": "Pending",
-      "isPaid": false
+      "isPaid": false,
+      "dealType": "New Deal"
     }
   ]
 }
