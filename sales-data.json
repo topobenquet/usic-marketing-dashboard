@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21",
+  "lastUpdated": "2026-07-22",
   "transactions": [
     {
       "date": "2026-01-01",
@@ -7575,18 +7575,6 @@
     },
     {
       "date": "2026-07-20",
-      "customer": "Selestino",
-      "product": "I-751",
-      "service": "I-751 Removal of Conditions",
-      "finder": "Hector",
-      "closer": "Hector",
-      "amount": 200.0,
-      "paidStatus": "Pending",
-      "isPaid": false,
-      "dealType": "New Deal"
-    },
-    {
-      "date": "2026-07-20",
       "customer": "Marianne Johnson",
       "product": "",
       "service": "Other",
@@ -7629,6 +7617,78 @@
       "finder": "Fernando",
       "closer": "Fernando",
       "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-21",
+      "customer": "Melissa Blackman",
+      "product": "N-400",
+      "service": "N-400 Citizenship",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 150.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-21",
+      "customer": "Selestino",
+      "product": "I-751",
+      "service": "I-751 Removal of Conditions",
+      "finder": "Hector",
+      "closer": "Hector",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-21",
+      "customer": "Ola Ogundiya",
+      "product": "All at Once",
+      "service": "All at Once Bundle",
+      "finder": "Hector",
+      "closer": "Hector",
+      "amount": 500.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-21",
+      "customer": "Juan Velasco",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Hector",
+      "closer": "Hector",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-21",
+      "customer": "Jonalyn",
+      "product": "Visa Fees",
+      "service": "Visa Fees",
+      "finder": "Hector",
+      "closer": "Laura",
+      "amount": 750.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-21",
+      "customer": "Benjamin Fernandez",
+      "product": "",
+      "service": "Other",
+      "finder": "",
+      "closer": "",
+      "amount": 50.0,
       "paidStatus": "Paid",
       "isPaid": true,
       "dealType": "New Deal"
