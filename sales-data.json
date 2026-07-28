@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-27",
+  "lastUpdated": "2026-07-28",
   "transactions": [
     {
       "date": "2026-01-01",
@@ -7823,6 +7823,66 @@
       "amount": 250.0,
       "paidStatus": "Paid",
       "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-27",
+      "customer": "Ola Ogundiya",
+      "product": "All at Once",
+      "service": "All at Once Bundle",
+      "finder": "Hector",
+      "closer": "Hector",
+      "amount": 500.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-27",
+      "customer": "Robyn Leigh Paul",
+      "product": "N-400/912",
+      "service": "N-400 Citizenship",
+      "finder": "David",
+      "closer": "David",
+      "amount": 400.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-30",
+      "customer": "Carlos Plata",
+      "product": "I-601A",
+      "service": "I-601A Waiver",
+      "finder": "Hector",
+      "closer": "Tony",
+      "amount": 1000.0,
+      "paidStatus": "Pending",
+      "isPaid": false,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-31",
+      "customer": "Arturo",
+      "product": "NVC",
+      "service": "NVC Processing",
+      "finder": "Hector",
+      "closer": "Hector",
+      "amount": 350.0,
+      "paidStatus": "Pending",
+      "isPaid": false,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-31",
+      "customer": "Ola Ogundiya",
+      "product": "All at Once",
+      "service": "All at Once Bundle",
+      "finder": "Hector",
+      "closer": "Hector",
+      "amount": 1000.0,
+      "paidStatus": "Pending",
+      "isPaid": false,
       "dealType": "New Deal"
     },
     {
