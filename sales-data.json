@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30",
+  "lastUpdated": "2026-07-31",
   "transactions": [
     {
       "date": "2026-01-01",
@@ -7965,8 +7965,104 @@
       "finder": "Hector",
       "closer": "Hector",
       "amount": 1000.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-30",
+      "customer": "Valeria Gomez",
+      "product": "FOIA",
+      "service": "FOIA",
+      "finder": "David",
+      "closer": "David",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-30",
+      "customer": "Fe Agnes",
+      "product": "Special",
+      "service": "Other",
+      "finder": "Hector",
+      "closer": "Jessica",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-30",
+      "customer": "Maricel",
+      "product": "I-90/912",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Hector",
+      "closer": "Jesus",
+      "amount": 300.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-30",
+      "customer": "Keyla",
+      "product": "Special",
+      "service": "Other",
+      "finder": "David",
+      "closer": "Tony",
+      "amount": 250.0,
       "paidStatus": "Pending",
       "isPaid": false,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-30",
+      "customer": "Chris Sowers",
+      "product": "Translation Revenue",
+      "service": "Translation",
+      "finder": "Fernando",
+      "closer": "Hector",
+      "amount": 50.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-30",
+      "customer": "Leslit for Angel",
+      "product": "Special",
+      "service": "Other",
+      "finder": "David",
+      "closer": "Tony",
+      "amount": 500.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-30",
+      "customer": "Luis Hernandez",
+      "product": "I-90 Online",
+      "service": "I-90 Green Card Renewal",
+      "finder": "David",
+      "closer": "David",
+      "amount": 250.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-30",
+      "customer": "Caridad Hernandez",
+      "product": "I-90 Online",
+      "service": "I-90 Green Card Renewal",
+      "finder": "David",
+      "closer": "Laura",
+      "amount": 40.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
       "dealType": "New Deal"
     },
     {
@@ -7977,6 +8073,18 @@
       "finder": "David",
       "closer": "David",
       "amount": 300.0,
+      "paidStatus": "Pending",
+      "isPaid": false,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-07-31",
+      "customer": "Keyla",
+      "product": "Special",
+      "service": "Other",
+      "finder": "David",
+      "closer": "Tony",
+      "amount": 250.0,
       "paidStatus": "Pending",
       "isPaid": false,
       "dealType": "New Deal"
