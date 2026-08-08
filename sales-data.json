@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07",
+  "lastUpdated": "2026-08-08",
   "transactions": [
     {
       "date": "2026-01-01",
@@ -8366,6 +8366,90 @@
       "dealType": "New Deal"
     },
     {
+      "date": "2026-08-07",
+      "customer": "Ivonne Nagir",
+      "product": "NVC",
+      "service": "NVC Processing",
+      "finder": "Fernando",
+      "closer": "Laura",
+      "amount": 355.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-08-07",
+      "customer": "Byron Ramos",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 200.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-08-07",
+      "customer": "Manuel",
+      "product": "All at Once",
+      "service": "All at Once Bundle",
+      "finder": "Hector",
+      "closer": "Hector",
+      "amount": 500.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-08-07",
+      "customer": "Rosa",
+      "product": "All at Once",
+      "service": "All at Once Bundle",
+      "finder": "Hector",
+      "closer": "Hector",
+      "amount": 500.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-08-07",
+      "customer": "Byron Ramos",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 100.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-08-07",
+      "customer": "Maker Puok",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 100.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-08-07",
+      "customer": "Edgardo",
+      "product": "Visa Fees",
+      "service": "Visa Fees",
+      "finder": "Fernando",
+      "closer": "Hector",
+      "amount": 150.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
       "date": "2026-08-11",
       "customer": "Gabriel for Lizeth",
       "product": "NVC",
@@ -8373,6 +8457,18 @@
       "finder": "Hector",
       "closer": "Hector",
       "amount": 700.0,
+      "paidStatus": "Pending",
+      "isPaid": false,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-08-15",
+      "customer": "Luisa",
+      "product": "NVC",
+      "service": "NVC Processing",
+      "finder": "Hector",
+      "closer": "Hector",
+      "amount": 200.0,
       "paidStatus": "Pending",
       "isPaid": false,
       "dealType": "New Deal"
