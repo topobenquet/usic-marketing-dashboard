@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-09",
+  "lastUpdated": "2026-08-10",
   "transactions": [
     {
       "date": "2026-01-01",
@@ -8457,6 +8457,18 @@
       "finder": "Hector",
       "closer": "Hector",
       "amount": 700.0,
+      "paidStatus": "Pending",
+      "isPaid": false,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-08-11",
+      "customer": "Jose Alvarado",
+      "product": "I-130",
+      "service": "I-130 Family Sponsorship",
+      "finder": "Hector",
+      "closer": "Hector",
+      "amount": 500.0,
       "paidStatus": "Pending",
       "isPaid": false,
       "dealType": "New Deal"
