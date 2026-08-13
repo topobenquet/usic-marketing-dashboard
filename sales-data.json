@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12",
+  "lastUpdated": "2026-08-13",
   "transactions": [
     {
       "date": "2026-01-01",
@@ -8553,6 +8553,54 @@
       "finder": "Hector",
       "closer": "Hector",
       "amount": 250.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-08-13",
+      "customer": "James Nyonga",
+      "product": "NVC",
+      "service": "NVC Processing",
+      "finder": "Fernando",
+      "closer": "Laura",
+      "amount": 250.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-08-13",
+      "customer": "Ximena",
+      "product": "I-130",
+      "service": "I-130 Family Sponsorship",
+      "finder": "Hector",
+      "closer": "Hector",
+      "amount": 300.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-08-13",
+      "customer": "Virgina Robledo",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Hector",
+      "closer": "Jesus",
+      "amount": 150.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-08-13",
+      "customer": "Otto Visvader",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 100.0,
       "paidStatus": "Paid",
       "isPaid": true,
       "dealType": "New Deal"
