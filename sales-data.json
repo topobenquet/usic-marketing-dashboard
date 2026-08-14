@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13",
+  "lastUpdated": "2026-08-14",
   "transactions": [
     {
       "date": "2026-01-01",
@@ -8450,7 +8450,7 @@
       "dealType": "New Deal"
     },
     {
-      "date": "2026-08-11",
+      "date": "2026-08-10",
       "customer": "Gabriel for Lizeth",
       "product": "NVC",
       "service": "NVC Processing",
@@ -8462,7 +8462,7 @@
       "dealType": "New Deal"
     },
     {
-      "date": "2026-08-11",
+      "date": "2026-08-10",
       "customer": "Jose Alvarado",
       "product": "I-130",
       "service": "I-130 Family Sponsorship",
@@ -8474,7 +8474,7 @@
       "dealType": "New Deal"
     },
     {
-      "date": "2026-08-11",
+      "date": "2026-08-10",
       "customer": "Raphael Winn",
       "product": "I-130",
       "service": "I-130 Family Sponsorship",
@@ -8486,7 +8486,7 @@
       "dealType": "New Deal"
     },
     {
-      "date": "2026-08-11",
+      "date": "2026-08-10",
       "customer": "Jahziel",
       "product": "I-131",
       "service": "I-131",
@@ -8498,7 +8498,7 @@
       "dealType": "New Deal"
     },
     {
-      "date": "2026-08-11",
+      "date": "2026-08-10",
       "customer": "Julio Bustos",
       "product": "N-400",
       "service": "N-400 Citizenship",
@@ -8510,7 +8510,7 @@
       "dealType": "New Deal"
     },
     {
-      "date": "2026-08-11",
+      "date": "2026-08-10",
       "customer": "Julio Bustos",
       "product": "N-400",
       "service": "N-400 Citizenship",
@@ -8522,7 +8522,7 @@
       "dealType": "New Deal"
     },
     {
-      "date": "2026-08-12",
+      "date": "2026-08-11",
       "customer": "Adriana",
       "product": "I-751",
       "service": "I-751 Removal of Conditions",
@@ -8534,7 +8534,7 @@
       "dealType": "New Deal"
     },
     {
-      "date": "2026-08-12",
+      "date": "2026-08-11",
       "customer": "Otto Visvader",
       "product": "I-90",
       "service": "I-90 Green Card Renewal",
@@ -8546,7 +8546,7 @@
       "dealType": "New Deal"
     },
     {
-      "date": "2026-08-12",
+      "date": "2026-08-11",
       "customer": "Cipriano Ramirez",
       "product": "I-90",
       "service": "I-90 Green Card Renewal",
@@ -8558,7 +8558,7 @@
       "dealType": "New Deal"
     },
     {
-      "date": "2026-08-13",
+      "date": "2026-08-12",
       "customer": "James Nyonga",
       "product": "NVC",
       "service": "NVC Processing",
@@ -8570,7 +8570,7 @@
       "dealType": "New Deal"
     },
     {
-      "date": "2026-08-13",
+      "date": "2026-08-12",
       "customer": "Ximena",
       "product": "I-130",
       "service": "I-130 Family Sponsorship",
@@ -8582,7 +8582,7 @@
       "dealType": "New Deal"
     },
     {
-      "date": "2026-08-13",
+      "date": "2026-08-12",
       "customer": "Virgina Robledo",
       "product": "I-90",
       "service": "I-90 Green Card Renewal",
@@ -8594,13 +8594,73 @@
       "dealType": "New Deal"
     },
     {
-      "date": "2026-08-13",
+      "date": "2026-08-12",
       "customer": "Otto Visvader",
       "product": "I-90",
       "service": "I-90 Green Card Renewal",
       "finder": "Fernando",
       "closer": "Fernando",
       "amount": 100.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-08-13",
+      "customer": "oswaldo Zcateca",
+      "product": "",
+      "service": "Other",
+      "finder": "Fernando",
+      "closer": "Fernando",
+      "amount": 250.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-08-13",
+      "customer": "Socorro Coto",
+      "product": "I-130",
+      "service": "I-130 Family Sponsorship",
+      "finder": "Fernando",
+      "closer": "Laura",
+      "amount": 500.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-08-13",
+      "customer": "Socorro Coto",
+      "product": "I-130",
+      "service": "I-130 Family Sponsorship",
+      "finder": "Fernando",
+      "closer": "Laura",
+      "amount": 500.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-08-13",
+      "customer": "Socorro Coto",
+      "product": "I-130",
+      "service": "I-130 Family Sponsorship",
+      "finder": "Fernando",
+      "closer": "Laura",
+      "amount": 100.0,
+      "paidStatus": "Paid",
+      "isPaid": true,
+      "dealType": "New Deal"
+    },
+    {
+      "date": "2026-08-13",
+      "customer": "Walter Garcia",
+      "product": "I-90",
+      "service": "I-90 Green Card Renewal",
+      "finder": "David",
+      "closer": "David",
+      "amount": 300.0,
       "paidStatus": "Paid",
       "isPaid": true,
       "dealType": "New Deal"
